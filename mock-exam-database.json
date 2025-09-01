@@ -1,0 +1,3247 @@
+
+[
+  {
+    "id": "CHEM-001",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Cardiac markers",
+    "stem": "Which cardiac biomarker remains elevated the longest after an acute MI?",
+    "options": [
+      "CK-MB",
+      "Myoglobin",
+      "Troponin I/T",
+      "AST"
+    ],
+    "correct_index": 2,
+    "explanation": "Troponins remain elevated for 7–10 days after MI.",
+    "difficulty": "Medium",
+    "tags": [
+      "troponin",
+      "AMI"
+    ],
+    "refs": [
+      "ACC/AHA MI Guidelines"
+    ]
+  },
+  {
+    "id": "CHEM-002",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Liver enzymes",
+    "stem": "Which pattern is most suggestive of alcoholic hepatitis?",
+    "options": [
+      "ALT>AST with high ALT",
+      "AST>ALT (ratio >2) with ↑GGT",
+      "Isolated ALP elevation",
+      "Low GGT"
+    ],
+    "correct_index": 1,
+    "explanation": "Alcoholic hepatitis: AST:ALT >2 and elevated GGT.",
+    "difficulty": "Easy",
+    "tags": [
+      "AST",
+      "ALT",
+      "GGT"
+    ],
+    "refs": [
+      "Henry’s Clinical Diagnosis"
+    ]
+  },
+  {
+    "id": "CHEM-003",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Pancreatic enzymes",
+    "stem": "Which enzyme is most specific for acute pancreatitis?",
+    "options": [
+      "Amylase",
+      "Lipase",
+      "ALP",
+      "AST"
+    ],
+    "correct_index": 1,
+    "explanation": "Lipase is more specific and remains elevated longer than amylase.",
+    "difficulty": "Medium",
+    "tags": [
+      "lipase",
+      "pancreatitis"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "CHEM-004",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Electrolytes",
+    "stem": "Most abundant cation in extracellular fluid is:",
+    "options": [
+      "Potassium",
+      "Magnesium",
+      "Sodium",
+      "Calcium"
+    ],
+    "correct_index": 2,
+    "explanation": "Sodium is the major extracellular cation.",
+    "difficulty": "Easy",
+    "tags": [
+      "sodium",
+      "ECF"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "CHEM-005",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Diabetes Dx",
+    "stem": "A fasting plasma glucose of 135 mg/dL on two occasions indicates:",
+    "options": [
+      "Impaired fasting glucose",
+      "Diabetes mellitus",
+      "Normal",
+      "Reactive hypoglycemia"
+    ],
+    "correct_index": 1,
+    "explanation": "≥126 mg/dL on two occasions meets ADA criteria for diabetes.",
+    "difficulty": "Medium",
+    "tags": [
+      "diabetes",
+      "FPG"
+    ],
+    "refs": [
+      "ADA Standards"
+    ]
+  },
+  {
+    "id": "CHEM-006",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Thyroid",
+    "stem": "Primary hypothyroidism lab pattern is:",
+    "options": [
+      "↓TSH, ↓FT4",
+      "↑TSH, ↓FT4",
+      "↑TSH, ↑FT4",
+      "Normal TSH, ↓FT4"
+    ],
+    "correct_index": 1,
+    "explanation": "Thyroid failure: high TSH with low FT4.",
+    "difficulty": "Easy",
+    "tags": [
+      "TSH",
+      "FT4"
+    ],
+    "refs": [
+      "ATA"
+    ]
+  },
+  {
+    "id": "CHEM-007",
+    "domain": "Clinical Chemistry",
+    "subtopic": "ABG",
+    "stem": "pH 7.25, HCO₃⁻ 14 mEq/L, pCO₂ 28 mmHg indicates:",
+    "options": [
+      "Respiratory acidosis",
+      "Metabolic acidosis with respiratory compensation",
+      "Metabolic alkalosis",
+      "Respiratory alkalosis"
+    ],
+    "correct_index": 1,
+    "explanation": "Low pH and low HCO₃⁻ with low pCO₂ is compensated metabolic acidosis.",
+    "difficulty": "Hard",
+    "tags": [
+      "ABG",
+      "acidosis"
+    ],
+    "refs": [
+      "Tintinalli"
+    ]
+  },
+  {
+    "id": "CHEM-008",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Lipids",
+    "stem": "Which lifestyle change most increases HDL?",
+    "options": [
+      "Smoking",
+      "Sedentary lifestyle",
+      "Regular aerobic exercise",
+      "High trans-fat intake"
+    ],
+    "correct_index": 2,
+    "explanation": "Exercise increases HDL; smoking/trans fats decrease HDL.",
+    "difficulty": "Easy",
+    "tags": [
+      "HDL",
+      "exercise"
+    ],
+    "refs": [
+      "NCEP"
+    ]
+  },
+  {
+    "id": "CHEM-009",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Cholestasis markers",
+    "stem": "Marked elevation of ALP and GGT suggests:",
+    "options": [
+      "Hepatocellular injury",
+      "Cholestasis",
+      "Hemolysis",
+      "Skeletal muscle injury"
+    ],
+    "correct_index": 1,
+    "explanation": "Cholestasis elevates ALP and GGT together.",
+    "difficulty": "Medium",
+    "tags": [
+      "ALP",
+      "GGT"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "CHEM-010",
+    "domain": "Clinical Chemistry",
+    "subtopic": "SIADH",
+    "stem": "Hyponatremia with low serum osmolality and inappropriately concentrated urine suggests:",
+    "options": [
+      "Diabetes insipidus",
+      "SIADH",
+      "Primary polydipsia",
+      "Hyperaldosteronism"
+    ],
+    "correct_index": 1,
+    "explanation": "SIADH shows low serum and high urine osmolality.",
+    "difficulty": "Medium",
+    "tags": [
+      "SIADH",
+      "osmolality"
+    ],
+    "refs": [
+      "UpToDate"
+    ]
+  },
+  {
+    "id": "CHEM-011",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Anion gap",
+    "stem": "Anion gap (without K⁺) is calculated as:",
+    "options": [
+      "Na⁺ − (Cl⁻ + HCO₃⁻)",
+      "Na⁺ + Cl⁻ − HCO₃⁻",
+      "Na⁺ − Cl⁻ − H₂O",
+      "Na⁺ − (K⁺ + Cl⁻)"
+    ],
+    "correct_index": 0,
+    "explanation": "AG = Na − (Cl + HCO₃).",
+    "difficulty": "Easy",
+    "tags": [
+      "anion gap"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "CHEM-012",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Jaundice",
+    "stem": "Hemolytic (prehepatic) jaundice shows predominance of:",
+    "options": [
+      "Conjugated bilirubin",
+      "Unconjugated bilirubin",
+      "Normal bilirubin",
+      "ALP only"
+    ],
+    "correct_index": 1,
+    "explanation": "Hemolysis increases unconjugated bilirubin.",
+    "difficulty": "Easy",
+    "tags": [
+      "bilirubin",
+      "hemolysis"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "CHEM-013",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Sample quality",
+    "stem": "Common cause of pseudohyperkalemia is:",
+    "options": [
+      "Lipemia",
+      "Hemolysis during phlebotomy",
+      "Icterus",
+      "Cold agglutinins"
+    ],
+    "correct_index": 1,
+    "explanation": "Hemolysis releases intracellular potassium.",
+    "difficulty": "Easy",
+    "tags": [
+      "hemolysis",
+      "potassium"
+    ],
+    "refs": [
+      "CLSI"
+    ]
+  },
+  {
+    "id": "CHEM-014",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Alcoholic liver disease",
+    "stem": "Which finding supports alcoholic liver disease?",
+    "options": [
+      "ALT:AST >2",
+      "AST:ALT >2 with ↑GGT",
+      "Isolated high ALP",
+      "Low GGT"
+    ],
+    "correct_index": 1,
+    "explanation": "AST/ALT ratio >2 and ↑GGT are typical.",
+    "difficulty": "Easy",
+    "tags": [
+      "AST/ALT",
+      "GGT"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "CHEM-015",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Osmolal gap",
+    "stem": "A large osmolal gap suggests ingestion of:",
+    "options": [
+      "Acetaminophen",
+      "Ethanol/methanol/ethylene glycol",
+      "Iron",
+      "Aspirin"
+    ],
+    "correct_index": 1,
+    "explanation": "Toxic alcohols raise the osmolal gap.",
+    "difficulty": "Medium",
+    "tags": [
+      "osmolal gap",
+      "toxins"
+    ],
+    "refs": [
+      "Tintinalli"
+    ]
+  },
+  {
+    "id": "CHEM-016",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Cardiac",
+    "stem": "Best marker to detect reinfarction within 24–48 h:",
+    "options": [
+      "Troponin I",
+      "CK-MB (delta)",
+      "LDH",
+      "Myoglobin"
+    ],
+    "correct_index": 1,
+    "explanation": "CK-MB falls sooner than troponin and aids detection of reinfarction.",
+    "difficulty": "Hard",
+    "tags": [
+      "CK-MB",
+      "reinfarction"
+    ],
+    "refs": [
+      "ACC/AHA"
+    ]
+  },
+  {
+    "id": "CHEM-017",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Osmolality",
+    "stem": "Calculated serum osmolality formula (mg/dL units):",
+    "options": [
+      "2×Na + glucose/18 + BUN/2.8",
+      "Na + K + glucose/18 + BUN/2.8",
+      "2×Na + glucose/18",
+      "2×Na + urea/6"
+    ],
+    "correct_index": 0,
+    "explanation": "Standard formula uses Na, glucose, and BUN.",
+    "difficulty": "Medium",
+    "tags": [
+      "osmolality"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "CHEM-018",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Hyperglycemia corrections",
+    "stem": "Corrected Na in hyperglycemia typically decreases by ~ how much per 100 mg/dL glucose rise?",
+    "options": [
+      "0.5 mEq/L",
+      "1.6 mEq/L",
+      "3.0 mEq/L",
+      "No change"
+    ],
+    "correct_index": 1,
+    "explanation": "~1.6 mEq/L per 100 mg/dL increase is commonly used.",
+    "difficulty": "Medium",
+    "tags": [
+      "corrected sodium"
+    ],
+    "refs": [
+      "UpToDate"
+    ]
+  },
+  {
+    "id": "CHEM-019",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Thyroid",
+    "stem": "Graves disease labs typically show:",
+    "options": [
+      "↑TSH, ↑FT4",
+      "↓TSH, ↑FT4/FT3",
+      "↓TSH, ↓FT4",
+      "Normal TSH, ↑FT4"
+    ],
+    "correct_index": 1,
+    "explanation": "Autoimmune hyperthyroidism suppresses TSH and elevates thyroid hormones.",
+    "difficulty": "Easy",
+    "tags": [
+      "Graves"
+    ],
+    "refs": [
+      "ATA"
+    ]
+  },
+  {
+    "id": "CHEM-020",
+    "domain": "Clinical Chemistry",
+    "subtopic": "ALP source",
+    "stem": "High ALP with normal GGT suggests ALP largely from:",
+    "options": [
+      "Liver",
+      "Bone",
+      "Placenta",
+      "Intestine"
+    ],
+    "correct_index": 1,
+    "explanation": "GGT is helpful to attribute ALP to hepatobiliary origin; normal GGT points to bone.",
+    "difficulty": "Medium",
+    "tags": [
+      "ALP",
+      "GGT"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "CHEM-021",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Preanalytical",
+    "stem": "Which is inappropriate for plasma ammonia collection?",
+    "options": [
+      "Transport on ice",
+      "Avoid hemolysis",
+      "Prolonged tourniquet use",
+      "Prompt analysis"
+    ],
+    "correct_index": 2,
+    "explanation": "Prolonged tourniquet elevates ammonia falsely.",
+    "difficulty": "Medium",
+    "tags": [
+      "ammonia",
+      "preanalytical"
+    ],
+    "refs": [
+      "CLSI"
+    ]
+  },
+  {
+    "id": "CHEM-022",
+    "domain": "Clinical Chemistry",
+    "subtopic": "ISE",
+    "stem": "Pseudohyponatremia is most likely with which method in severe hyperlipidemia?",
+    "options": [
+      "Direct ISE",
+      "Indirect ISE",
+      "Chloridometry",
+      "Ion chromatography"
+    ],
+    "correct_index": 1,
+    "explanation": "Indirect ISE uses dilution and can be affected by high solids.",
+    "difficulty": "Hard",
+    "tags": [
+      "ISE",
+      "pseudohyponatremia"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "CHEM-023",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Lactate",
+    "stem": "Elevated lactate in septic shock indicates:",
+    "options": [
+      "Alkalosis",
+      "Tissue hypoperfusion with anaerobic metabolism",
+      "Renal failure only",
+      "Liver failure only"
+    ],
+    "correct_index": 1,
+    "explanation": "Reflects inadequate perfusion and oxygen delivery.",
+    "difficulty": "Medium",
+    "tags": [
+      "lactate",
+      "sepsis"
+    ],
+    "refs": [
+      "SSC"
+    ]
+  },
+  {
+    "id": "CHEM-024",
+    "domain": "Clinical Chemistry",
+    "subtopic": "TDM",
+    "stem": "Best timing for vancomycin monitoring is the:",
+    "options": [
+      "Peak level",
+      "Random level",
+      "Trough before next dose",
+      "Any time"
+    ],
+    "correct_index": 2,
+    "explanation": "Trough correlates with efficacy/toxicity.",
+    "difficulty": "Easy",
+    "tags": [
+      "vancomycin",
+      "TDM"
+    ],
+    "refs": [
+      "ASHP"
+    ]
+  },
+  {
+    "id": "CHEM-025",
+    "domain": "Clinical Chemistry",
+    "subtopic": "HbA1c",
+    "stem": "Which condition falsely lowers HbA1c?",
+    "options": [
+      "Iron deficiency",
+      "Recent blood loss/hemolysis",
+      "Chronic hyperglycemia",
+      "CKD without anemia"
+    ],
+    "correct_index": 1,
+    "explanation": "Shortened RBC lifespan lowers HbA1c independent of glycemia.",
+    "difficulty": "Medium",
+    "tags": [
+      "HbA1c"
+    ],
+    "refs": [
+      "ADA"
+    ]
+  },
+  {
+    "id": "CHEM-026",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Tumor markers",
+    "stem": "CA-125 is primarily used to monitor:",
+    "options": [
+      "Prostate cancer",
+      "Ovarian cancer",
+      "Colon cancer",
+      "HCC"
+    ],
+    "correct_index": 1,
+    "explanation": "CA-125 is mainly for ovarian cancer monitoring.",
+    "difficulty": "Easy",
+    "tags": [
+      "CA-125"
+    ],
+    "refs": [
+      "NCCN"
+    ]
+  },
+  {
+    "id": "CHEM-027",
+    "domain": "Clinical Chemistry",
+    "subtopic": "Electrolytes",
+    "stem": "Severe hyperkalemia with ECG changes requires which immediate therapy?",
+    "options": [
+      "IV calcium gluconate",
+      "Oral sodium polystyrene only",
+      "Loop diuretic only",
+      "No treatment"
+    ],
+    "correct_index": 0,
+    "explanation": "Calcium stabilizes cardiac membranes while definitive K-lowering therapies are initiated.",
+    "difficulty": "Hard",
+    "tags": [
+      "hyperkalemia",
+      "ECG"
+    ],
+    "refs": [
+      "ACLS"
+    ]
+  },
+  {
+    "id": "HEME-001",
+    "domain": "Hematology",
+    "subtopic": "Hemostasis",
+    "stem": "Which factor is NOT measured by PT or APTT?",
+    "options": [
+      "Factor XI",
+      "Factor XIII",
+      "Factor IX",
+      "Factor VII"
+    ],
+    "correct_index": 1,
+    "explanation": "FXIII cross-links fibrin and is not reflected in PT/APTT.",
+    "difficulty": "Medium",
+    "tags": [
+      "FXIII"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-002",
+    "domain": "Hematology",
+    "subtopic": "Hemophilia",
+    "stem": "Prolonged APTT, normal PT, low Factor VIII suggests:",
+    "options": [
+      "Hemophilia B",
+      "Hemophilia A",
+      "vWD",
+      "DIC"
+    ],
+    "correct_index": 1,
+    "explanation": "Hemophilia A = Factor VIII deficiency.",
+    "difficulty": "Easy",
+    "tags": [
+      "APTT",
+      "FVIII"
+    ],
+    "refs": [
+      "ASH"
+    ]
+  },
+  {
+    "id": "HEME-003",
+    "domain": "Hematology",
+    "subtopic": "Platelet disorders",
+    "stem": "Giant platelets with prolonged bleeding time most consistent with:",
+    "options": [
+      "Glanzmann thrombasthenia",
+      "Bernard–Soulier syndrome",
+      "ITP",
+      "TTP"
+    ],
+    "correct_index": 1,
+    "explanation": "Bernard–Soulier due to GpIb defect (adhesion).",
+    "difficulty": "Medium",
+    "tags": [
+      "GpIb",
+      "platelets"
+    ],
+    "refs": [
+      "ASH"
+    ]
+  },
+  {
+    "id": "HEME-004",
+    "domain": "Hematology",
+    "subtopic": "RBC inclusions",
+    "stem": "After oxidative stress in G6PD deficiency, the inclusion seen is:",
+    "options": [
+      "Howell–Jolly bodies",
+      "Heinz bodies",
+      "Basophilic stippling",
+      "Pappenheimer bodies"
+    ],
+    "correct_index": 1,
+    "explanation": "Heinz bodies are denatured hemoglobin.",
+    "difficulty": "Easy",
+    "tags": [
+      "G6PD",
+      "Heinz"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-005",
+    "domain": "Hematology",
+    "subtopic": "CLL markers",
+    "stem": "Typical immunophenotype of CLL is:",
+    "options": [
+      "CD3, CD4",
+      "CD5, CD19, CD23, CD20",
+      "CD10, CD22",
+      "CD13, CD33"
+    ],
+    "correct_index": 1,
+    "explanation": "CLL shows B-cell markers with aberrant CD5 and CD23.",
+    "difficulty": "Medium",
+    "tags": [
+      "CLL"
+    ],
+    "refs": [
+      "WHO"
+    ]
+  },
+  {
+    "id": "HEME-006",
+    "domain": "Hematology",
+    "subtopic": "Myeloma",
+    "stem": "Rouleaux with M-spike on SPEP most suggests:",
+    "options": [
+      "Waldenström only",
+      "Multiple myeloma",
+      "CLL",
+      "Macrocytic anemia"
+    ],
+    "correct_index": 1,
+    "explanation": "Myeloma shows monoclonal spike and rouleaux.",
+    "difficulty": "Medium",
+    "tags": [
+      "myeloma",
+      "SPEP"
+    ],
+    "refs": [
+      "IMWG"
+    ]
+  },
+  {
+    "id": "HEME-007",
+    "domain": "Hematology",
+    "subtopic": "DIC",
+    "stem": "PT ↑, APTT ↑, fibrinogen ↓, platelets ↓, D-dimer + indicate:",
+    "options": [
+      "Hemophilia A",
+      "TTP",
+      "vWD",
+      "DIC"
+    ],
+    "correct_index": 3,
+    "explanation": "Consumptive coagulopathy pattern.",
+    "difficulty": "Medium",
+    "tags": [
+      "DIC"
+    ],
+    "refs": [
+      "ASH"
+    ]
+  },
+  {
+    "id": "HEME-008",
+    "domain": "Hematology",
+    "subtopic": "Iron studies",
+    "stem": "Iron deficiency anemia shows:",
+    "options": [
+      "High ferritin, low TIBC",
+      "Low ferritin, high TIBC",
+      "High ferritin, high TIBC",
+      "Normal ferritin, high TIBC"
+    ],
+    "correct_index": 1,
+    "explanation": "Ferritin ↓, TIBC ↑ in IDA.",
+    "difficulty": "Easy",
+    "tags": [
+      "IDA"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "HEME-009",
+    "domain": "Hematology",
+    "subtopic": "ACD",
+    "stem": "Anemia of chronic disease usually shows:",
+    "options": [
+      "Low ferritin, high TIBC",
+      "High ferritin, low TIBC",
+      "High ferritin, high TIBC",
+      "Normal ferritin, high TIBC"
+    ],
+    "correct_index": 1,
+    "explanation": "Inflammation increases ferritin and lowers TIBC via hepcidin.",
+    "difficulty": "Medium",
+    "tags": [
+      "ACD",
+      "hepcidin"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-010",
+    "domain": "Hematology",
+    "subtopic": "TTP",
+    "stem": "Classic lab pattern in TTP is:",
+    "options": [
+      "Prolonged PT/APTT with thrombocytopenia",
+      "Normal PT/APTT with thrombocytopenia and schistocytes",
+      "High fibrinogen and platelets",
+      "Marked D-dimer elevation only"
+    ],
+    "correct_index": 1,
+    "explanation": "TTP: MAHA with schistocytes, low platelets, normal PT/APTT.",
+    "difficulty": "Medium",
+    "tags": [
+      "TTP",
+      "MAHA"
+    ],
+    "refs": [
+      "ASH"
+    ]
+  },
+  {
+    "id": "HEME-011",
+    "domain": "Hematology",
+    "subtopic": "MPN",
+    "stem": "Polycythemia vera typically has:",
+    "options": [
+      "High EPO due to hypoxia",
+      "Low EPO with JAK2 mutation",
+      "BCR-ABL fusion",
+      "Low hematocrit"
+    ],
+    "correct_index": 1,
+    "explanation": "PV: clonal JAK2 with suppressed EPO.",
+    "difficulty": "Medium",
+    "tags": [
+      "PV",
+      "JAK2"
+    ],
+    "refs": [
+      "WHO"
+    ]
+  },
+  {
+    "id": "HEME-012",
+    "domain": "Hematology",
+    "subtopic": "Alpha thalassemia",
+    "stem": "Deletion of three α-globin genes leads to:",
+    "options": [
+      "Hb Bart syndrome",
+      "HbH disease",
+      "β-thalassemia major",
+      "Sickle cell anemia"
+    ],
+    "correct_index": 1,
+    "explanation": "Three-gene deletion → HbH disease.",
+    "difficulty": "Easy",
+    "tags": [
+      "alpha thal"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-013",
+    "domain": "Hematology",
+    "subtopic": "Fibrinolysis",
+    "stem": "Rapid inhibitor of plasmin is:",
+    "options": [
+      "Antithrombin III",
+      "α2-antiplasmin",
+      "Protein C",
+      "Factor XIII"
+    ],
+    "correct_index": 1,
+    "explanation": "α2-antiplasmin neutralizes plasmin.",
+    "difficulty": "Medium",
+    "tags": [
+      "plasmin"
+    ],
+    "refs": [
+      "Hemostasis texts"
+    ]
+  },
+  {
+    "id": "HEME-014",
+    "domain": "Hematology",
+    "subtopic": "Heparin effect",
+    "stem": "Unfractionated heparin primarily prolongs:",
+    "options": [
+      "PT/INR",
+      "APTT",
+      "Bleeding time only",
+      "Thrombin time only"
+    ],
+    "correct_index": 1,
+    "explanation": "Heparin prolongs APTT; TT may also increase.",
+    "difficulty": "Easy",
+    "tags": [
+      "heparin",
+      "APTT"
+    ],
+    "refs": [
+      "CLSI"
+    ]
+  },
+  {
+    "id": "HEME-015",
+    "domain": "Hematology",
+    "subtopic": "Mixing study",
+    "stem": "APTT that corrects on 1:1 mix suggests:",
+    "options": [
+      "Lupus anticoagulant",
+      "Heparin effect",
+      "Factor deficiency",
+      "Specific inhibitor"
+    ],
+    "correct_index": 2,
+    "explanation": "Correction indicates factor deficiency.",
+    "difficulty": "Medium",
+    "tags": [
+      "mixing"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-016",
+    "domain": "Hematology",
+    "subtopic": "vWD",
+    "stem": "↑Bleeding time with ↑APTT and normal platelets suggests:",
+    "options": [
+      "Hemophilia A",
+      "DIC",
+      "von Willebrand disease",
+      "TTP"
+    ],
+    "correct_index": 2,
+    "explanation": "vWD affects platelet adhesion and stabilizes FVIII.",
+    "difficulty": "Medium",
+    "tags": [
+      "vWD"
+    ],
+    "refs": [
+      "ASH"
+    ]
+  },
+  {
+    "id": "HEME-017",
+    "domain": "Hematology",
+    "subtopic": "Sickle screening",
+    "stem": "Which screens for HbS by reduced solubility?",
+    "options": [
+      "Ham test",
+      "Sickle solubility test",
+      "Direct Coombs",
+      "Osmotic fragility"
+    ],
+    "correct_index": 1,
+    "explanation": "Sickle solubility detects HbS precipitation.",
+    "difficulty": "Easy",
+    "tags": [
+      "HbS"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-018",
+    "domain": "Hematology",
+    "subtopic": "Thalassemia trait",
+    "stem": "Feature favoring β-thal trait over IDA:",
+    "options": [
+      "High RDW",
+      "Low RBC count",
+      "Normal/↑ RBC count with low MCV",
+      "High MCV"
+    ],
+    "correct_index": 2,
+    "explanation": "Thal trait: microcytosis with relatively high RBC count.",
+    "difficulty": "Medium",
+    "tags": [
+      "thal trait"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-019",
+    "domain": "Hematology",
+    "subtopic": "Aplastic anemia",
+    "stem": "Pancytopenia with hypocellular marrow suggests:",
+    "options": [
+      "Aplastic anemia",
+      "CML",
+      "Hemolysis",
+      "Megaloblastic anemia"
+    ],
+    "correct_index": 0,
+    "explanation": "Classic for aplastic anemia.",
+    "difficulty": "Medium",
+    "tags": [
+      "aplasia"
+    ],
+    "refs": [
+      "WHO"
+    ]
+  },
+  {
+    "id": "HEME-020",
+    "domain": "Hematology",
+    "subtopic": "Polycythemia",
+    "stem": "Relative polycythemia shows:",
+    "options": [
+      "↑RBC mass",
+      "Normal RBC mass with ↓ plasma volume",
+      "High EPO",
+      "JAK2 mutation always"
+    ],
+    "correct_index": 1,
+    "explanation": "Hemoconcentration elevates Hct without ↑RBC mass.",
+    "difficulty": "Easy",
+    "tags": [
+      "polycythemia"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-021",
+    "domain": "Hematology",
+    "subtopic": "ESR",
+    "stem": "Which raises ESR?",
+    "options": [
+      "Low fibrinogen",
+      "Marked rouleaux from ↑fibrinogen",
+      "Microcytosis",
+      "Low immunoglobulins"
+    ],
+    "correct_index": 1,
+    "explanation": "Acute-phase proteins increase ESR via rouleaux.",
+    "difficulty": "Easy",
+    "tags": [
+      "ESR"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "HEME-022",
+    "domain": "Hematology",
+    "subtopic": "Retic response",
+    "stem": "After starting iron therapy, marrow response is best seen by:",
+    "options": [
+      "Hb rise in 12 h",
+      "Reticulocytosis in 3–5 days",
+      "MCV rise same day",
+      "Ferritin rise in 12 h"
+    ],
+    "correct_index": 1,
+    "explanation": "Retic count rises within days.",
+    "difficulty": "Medium",
+    "tags": [
+      "retic"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-023",
+    "domain": "Hematology",
+    "subtopic": "Electrophoresis",
+    "stem": "Sickle cell disease electrophoresis shows:",
+    "options": [
+      "Predominant HbA",
+      "Predominant HbS with ↑HbF and absent HbA",
+      "Only HbF",
+      "Only HbA2"
+    ],
+    "correct_index": 1,
+    "explanation": "HbS predominates; HbA absent.",
+    "difficulty": "Medium",
+    "tags": [
+      "electrophoresis"
+    ],
+    "refs": [
+      "Rodak"
+    ]
+  },
+  {
+    "id": "HEME-024",
+    "domain": "Hematology",
+    "subtopic": "Glanzmann",
+    "stem": "Glanzmann thrombasthenia is a defect of:",
+    "options": [
+      "GpIb/IX",
+      "GpIIb/IIIa",
+      "vWF",
+      "ADAMTS13"
+    ],
+    "correct_index": 1,
+    "explanation": "Aggregation defect due to GpIIb/IIIa deficiency.",
+    "difficulty": "Hard",
+    "tags": [
+      "platelet aggregation"
+    ],
+    "refs": [
+      "ASH"
+    ]
+  },
+  {
+    "id": "HEME-025",
+    "domain": "Hematology",
+    "subtopic": "Anticoagulants",
+    "stem": "Which test primarily monitors unfractionated heparin therapy?",
+    "options": [
+      "PT/INR",
+      "APTT",
+      "Bleeding time",
+      "ACT only"
+    ],
+    "correct_index": 1,
+    "explanation": "APTT is used for UFH monitoring.",
+    "difficulty": "Easy",
+    "tags": [
+      "UFH",
+      "APTT"
+    ],
+    "refs": [
+      "CLSI"
+    ]
+  },
+  {
+    "id": "MICRO-001",
+    "domain": "Microbiology",
+    "subtopic": "Selective media",
+    "stem": "Which medium is selective for Vibrio cholerae?",
+    "options": [
+      "Blood agar",
+      "TCBS agar",
+      "Chocolate agar",
+      "XLD agar"
+    ],
+    "correct_index": 1,
+    "explanation": "TCBS selects Vibrio; V. cholerae forms yellow colonies.",
+    "difficulty": "Easy",
+    "tags": [
+      "TCBS",
+      "Vibrio"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-002",
+    "domain": "Microbiology",
+    "subtopic": "MacConkey",
+    "stem": "Shigella on MacConkey agar appears:",
+    "options": [
+      "Pink (LF)",
+      "Colorless (NLF)",
+      "Yellow",
+      "Blue"
+    ],
+    "correct_index": 1,
+    "explanation": "Shigella is a non-lactose fermenter → colorless colonies.",
+    "difficulty": "Easy",
+    "tags": [
+      "Shigella",
+      "MacConkey"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-003",
+    "domain": "Microbiology",
+    "subtopic": "XLD",
+    "stem": "Salmonella on XLD agar typically appears:",
+    "options": [
+      "Yellow",
+      "Red with black center",
+      "Red without H₂S",
+      "Green sheen"
+    ],
+    "correct_index": 1,
+    "explanation": "H₂S production yields black centers; colonies are red/pink.",
+    "difficulty": "Medium",
+    "tags": [
+      "Salmonella",
+      "XLD"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-004",
+    "domain": "Microbiology",
+    "subtopic": "Oxidase",
+    "stem": "Which organisms are oxidase-positive?",
+    "options": [
+      "E. coli, Proteus, Salmonella",
+      "Staph, Strep, Enterococcus",
+      "Pseudomonas, Vibrio, Neisseria, Haemophilus",
+      "Clostridium, Bacteroides"
+    ],
+    "correct_index": 2,
+    "explanation": "Many non-fermenters and Vibrio/Neisseria are oxidase-positive.",
+    "difficulty": "Medium",
+    "tags": [
+      "oxidase"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-005",
+    "domain": "Microbiology",
+    "subtopic": "Bile solubility",
+    "stem": "Bile soluble, optochin sensitive α-hemolytic coccus is:",
+    "options": [
+      "S. pyogenes",
+      "S. pneumoniae",
+      "S. agalactiae",
+      "Enterococcus faecalis"
+    ],
+    "correct_index": 1,
+    "explanation": "S. pneumoniae fits this profile.",
+    "difficulty": "Easy",
+    "tags": [
+      "pneumococcus"
+    ],
+    "refs": [
+      "Jawetz"
+    ]
+  },
+  {
+    "id": "MICRO-006",
+    "domain": "Microbiology",
+    "subtopic": "Parasitology",
+    "stem": "Camper with greasy, foul-smelling diarrhea; trophozoites with two nuclei and flagella:",
+    "options": [
+      "Entamoeba histolytica",
+      "Giardia lamblia",
+      "Cryptosporidium parvum",
+      "Balantidium coli"
+    ],
+    "correct_index": 1,
+    "explanation": "Giardia causes steatorrhea; trophozoite has two nuclei.",
+    "difficulty": "Easy",
+    "tags": [
+      "Giardia"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "MICRO-007",
+    "domain": "Microbiology",
+    "subtopic": "Mycology geography",
+    "stem": "“Chicago disease” is caused by:",
+    "options": [
+      "Histoplasma",
+      "Blastomyces",
+      "Coccidioides",
+      "Aspergillus"
+    ],
+    "correct_index": 1,
+    "explanation": "Blastomyces dermatitidis.",
+    "difficulty": "Medium",
+    "tags": [
+      "blastomycosis"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "MICRO-008",
+    "domain": "Microbiology",
+    "subtopic": "Urease",
+    "stem": "Rapid urease breath test positivity in gastritis implicates:",
+    "options": [
+      "E. coli",
+      "H. pylori",
+      "S. aureus",
+      "Proteus vulgaris"
+    ],
+    "correct_index": 1,
+    "explanation": "H. pylori produces urease.",
+    "difficulty": "Easy",
+    "tags": [
+      "urease",
+      "H. pylori"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "MICRO-009",
+    "domain": "Microbiology",
+    "subtopic": "Pseudomonas",
+    "stem": "Non-lactose fermenter with oxidase positivity and blue-green pigment:",
+    "options": [
+      "Klebsiella pneumoniae",
+      "Pseudomonas aeruginosa",
+      "Proteus mirabilis",
+      "Acinetobacter baumannii"
+    ],
+    "correct_index": 1,
+    "explanation": "Pseudomonas produces pyocyanin and is oxidase+.",
+    "difficulty": "Medium",
+    "tags": [
+      "Pseudomonas"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-010",
+    "domain": "Microbiology",
+    "subtopic": "Campylobacter",
+    "stem": "Campylobacter jejuni grows best under:",
+    "options": [
+      "Anaerobic 25°C",
+      "Microaerophilic 42°C",
+      "Room air 37°C",
+      "10% NaCl"
+    ],
+    "correct_index": 1,
+    "explanation": "C. jejuni is microaerophilic and thermophilic.",
+    "difficulty": "Hard",
+    "tags": [
+      "Campylobacter"
+    ],
+    "refs": [
+      "Jawetz"
+    ]
+  },
+  {
+    "id": "MICRO-011",
+    "domain": "Microbiology",
+    "subtopic": "E. coli ID",
+    "stem": "Which supports E. coli identification?",
+    "options": [
+      "NLF on MacConkey",
+      "Lactose fermentation and indole positive",
+      "H₂S on TSI",
+      "Urease strongly positive"
+    ],
+    "correct_index": 1,
+    "explanation": "E. coli is LF and indole+.",
+    "difficulty": "Easy",
+    "tags": [
+      "E. coli",
+      "indole"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-012",
+    "domain": "Microbiology",
+    "subtopic": "Candida",
+    "stem": "Germ tube positive yeast is classically:",
+    "options": [
+      "Candida albicans",
+      "C. glabrata",
+      "Cryptococcus neoformans",
+      "Malassezia furfur"
+    ],
+    "correct_index": 0,
+    "explanation": "C. albicans/dubliniensis show germ tubes.",
+    "difficulty": "Medium",
+    "tags": [
+      "Candida"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-013",
+    "domain": "Microbiology",
+    "subtopic": "AFB stain",
+    "stem": "Ziehl–Neelsen staining detects organisms that are:",
+    "options": [
+      "Spore-forming",
+      "Acid-fast due to mycolic acids",
+      "Encapsulated only",
+      "Gram-variable due to LPS"
+    ],
+    "correct_index": 1,
+    "explanation": "Mycobacteria resist decolorization by acid alcohol.",
+    "difficulty": "Easy",
+    "tags": [
+      "AFB",
+      "mycolic"
+    ],
+    "refs": [
+      "CDC TB"
+    ]
+  },
+  {
+    "id": "MICRO-014",
+    "domain": "Microbiology",
+    "subtopic": "C. difficile",
+    "stem": "Best diagnostic algorithm for C. difficile includes:",
+    "options": [
+      "Culture only",
+      "GDH/toxin EIA with NAAT confirmation",
+      "Catalase test",
+      "Coagulase test"
+    ],
+    "correct_index": 1,
+    "explanation": "Two-step algorithm with NAAT confirmation is recommended.",
+    "difficulty": "Medium",
+    "tags": [
+      "C. difficile"
+    ],
+    "refs": [
+      "IDSA"
+    ]
+  },
+  {
+    "id": "MICRO-015",
+    "domain": "Microbiology",
+    "subtopic": "Rotavirus",
+    "stem": "Leading cause of severe watery diarrhea in infants:",
+    "options": [
+      "Norovirus",
+      "Rotavirus",
+      "Adenovirus 40/41",
+      "Astrovirus"
+    ],
+    "correct_index": 1,
+    "explanation": "Rotavirus historically common in infants.",
+    "difficulty": "Easy",
+    "tags": [
+      "rotavirus"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "MICRO-016",
+    "domain": "Microbiology",
+    "subtopic": "Tetanus",
+    "stem": "Lockjaw after a wound is due to:",
+    "options": [
+      "Botulinum toxin",
+      "Tetanospasmin",
+      "Enterotoxin A",
+      "TSST-1"
+    ],
+    "correct_index": 1,
+    "explanation": "C. tetani produces tetanospasmin causing spastic paralysis.",
+    "difficulty": "Easy",
+    "tags": [
+      "tetanus"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "MICRO-017",
+    "domain": "Microbiology",
+    "subtopic": "Foodborne neurotoxins",
+    "stem": "Improperly canned vegetables linked to neurotoxin; which organisms can produce neurotoxins?",
+    "options": [
+      "C. tetani, C. botulinum, S. aureus, B. cereus",
+      "C. perfringens, E. coli, S. typhi, V. cholerae",
+      "Shigella, Salmonella, Listeria, Campylobacter",
+      "H. pylori, M. tuberculosis, P. aeruginosa, Yersinia"
+    ],
+    "correct_index": 0,
+    "explanation": "C. botulinum is classic; S. aureus and B. cereus toxins may affect nervous system.",
+    "difficulty": "Medium",
+    "tags": [
+      "botulism"
+    ],
+    "refs": [
+      "FDA Bad Bug Book"
+    ]
+  },
+  {
+    "id": "MICRO-018",
+    "domain": "Microbiology",
+    "subtopic": "Strep ID",
+    "stem": "CAMP test positive helps differentiate:",
+    "options": [
+      "S. agalactiae from S. pyogenes",
+      "S. pneumoniae from viridans",
+      "Enterococcus from Strep A",
+      "S. aureus from Micrococcus"
+    ],
+    "correct_index": 0,
+    "explanation": "Group B strep is CAMP positive.",
+    "difficulty": "Medium",
+    "tags": [
+      "CAMP",
+      "GBS"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-019",
+    "domain": "Microbiology",
+    "subtopic": "Bacitracin",
+    "stem": "Which is bacitracin sensitive?",
+    "options": [
+      "Group A Streptococcus",
+      "Group B Streptococcus",
+      "Enterococcus",
+      "Viridans streptococci"
+    ],
+    "correct_index": 0,
+    "explanation": "Group A strep is bacitracin sensitive (presumptive).",
+    "difficulty": "Easy",
+    "tags": [
+      "Strep A",
+      "bacitracin"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-020",
+    "domain": "Microbiology",
+    "subtopic": "Optochin",
+    "stem": "Optochin sensitive, bile soluble α-hemolytic coccus:",
+    "options": [
+      "S. pneumoniae",
+      "Viridans streptococci",
+      "S. agalactiae",
+      "Enterococcus"
+    ],
+    "correct_index": 0,
+    "explanation": "S. pneumoniae.",
+    "difficulty": "Easy",
+    "tags": [
+      "optochin"
+    ],
+    "refs": [
+      "Jawetz"
+    ]
+  },
+  {
+    "id": "MICRO-021",
+    "domain": "Microbiology",
+    "subtopic": "Indole test",
+    "stem": "Which media can interfere with the indole test?",
+    "options": [
+      "Peptone water",
+      "Nutrient agar",
+      "MacConkey/EMB/Mueller–Hinton",
+      "Blood agar only"
+    ],
+    "correct_index": 2,
+    "explanation": "Dyes/inhibitors can mask reactions on these media.",
+    "difficulty": "Medium",
+    "tags": [
+      "indole",
+      "media"
+    ],
+    "refs": [
+      "Koneman"
+    ]
+  },
+  {
+    "id": "MICRO-022",
+    "domain": "Microbiology",
+    "subtopic": "Influenza",
+    "stem": "Influenza attachment to respiratory epithelium is mediated by:",
+    "options": [
+      "Neuraminidase",
+      "Hemagglutinin",
+      "Matrix protein",
+      "RNA polymerase"
+    ],
+    "correct_index": 1,
+    "explanation": "HA binds sialic acid; NA aids release.",
+    "difficulty": "Easy",
+    "tags": [
+      "influenza",
+      "HA"
+    ],
+    "refs": [
+      "Jawetz"
+    ]
+  },
+  {
+    "id": "MICRO-023",
+    "domain": "Microbiology",
+    "subtopic": "EBV mono",
+    "stem": "Fever, pharyngitis, lymphadenopathy, splenomegaly, positive Monospot suggest:",
+    "options": [
+      "CMV",
+      "EBV",
+      "HIV",
+      "HHV-6"
+    ],
+    "correct_index": 1,
+    "explanation": "Classic for infectious mononucleosis due to EBV.",
+    "difficulty": "Easy",
+    "tags": [
+      "EBV",
+      "Monospot"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "MICRO-024",
+    "domain": "Microbiology",
+    "subtopic": "Giardia vs Entamoeba",
+    "stem": "Which stool finding favors Entamoeba histolytica over Giardia lamblia?",
+    "options": [
+      "Trophozoites with two nuclei and flagella",
+      "Trophozoites with ingested RBCs",
+      "Oval cysts with four nuclei",
+      "Acid-fast oocysts"
+    ],
+    "correct_index": 1,
+    "explanation": "E. histolytica trophozoites may show ingested RBCs.",
+    "difficulty": "Hard",
+    "tags": [
+      "E. histolytica"
+    ],
+    "refs": [
+      "CDC DPDx"
+    ]
+  },
+  {
+    "id": "BB-001",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "ABO sugars",
+    "stem": "Immunodominant sugar for blood group A is:",
+    "options": [
+      "D-galactose",
+      "L-fucose",
+      "N-acetyl-D-galactosamine",
+      "N-acetyl-D-glucosamine"
+    ],
+    "correct_index": 2,
+    "explanation": "A transferase adds GalNAc to H antigen.",
+    "difficulty": "Easy",
+    "tags": [
+      "ABO",
+      "sugars"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-002",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Rouleaux effect",
+    "stem": "Rouleaux most interferes with which test?",
+    "options": [
+      "DAT",
+      "ABO reverse typing",
+      "Rh typing",
+      "Antibody screen"
+    ],
+    "correct_index": 1,
+    "explanation": "Rouleaux mimics agglutination in reverse grouping.",
+    "difficulty": "Medium",
+    "tags": [
+      "rouleaux"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-003",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "DHTR",
+    "stem": "DAT+ post-transfusion and eluate showing anti-Jka suggests:",
+    "options": [
+      "FNHTR",
+      "Delayed hemolytic transfusion reaction",
+      "Allergic reaction",
+      "TRALI"
+    ],
+    "correct_index": 1,
+    "explanation": "Kidd antibodies often cause DHTR with positive DAT.",
+    "difficulty": "Medium",
+    "tags": [
+      "Kidd",
+      "DHTR"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-004",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Crossmatch",
+    "stem": "Screen negative but crossmatch incompatible with several units suggests:",
+    "options": [
+      "Sample error",
+      "Low-incidence antigen antibody",
+      "ABO error",
+      "All units wrong"
+    ],
+    "correct_index": 1,
+    "explanation": "A low-incidence antigen may be present on donor cells only.",
+    "difficulty": "Hard",
+    "tags": [
+      "crossmatch"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-005",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "RhIG",
+    "stem": "Appropriate prevention for Rh− mother with Rh+ fetus is:",
+    "options": [
+      "Nothing",
+      "Administer RhIG",
+      "Exchange transfusion now",
+      "Wait postpartum only"
+    ],
+    "correct_index": 1,
+    "explanation": "Give RhIG antenatally and postpartum if baby is Rh+.",
+    "difficulty": "Easy",
+    "tags": [
+      "RhIG"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-006",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Duffy",
+    "stem": "Clinical significance of anti-Fya is that it can:",
+    "options": [
+      "Be ignored",
+      "Cause HDFN and transfusion reactions",
+      "React only at cold temps",
+      "React only with enzyme-treated cells"
+    ],
+    "correct_index": 1,
+    "explanation": "Duffy antibodies are IgG at 37°C and clinically significant.",
+    "difficulty": "Medium",
+    "tags": [
+      "Duffy"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-007",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Compatibility",
+    "stem": "Recipient AB− with no AB− units; best RBC alternative:",
+    "options": [
+      "A− and B− alternating",
+      "O+",
+      "A+",
+      "B+"
+    ],
+    "correct_index": 0,
+    "explanation": "Use Rh− units lacking incompatible ABO antigens.",
+    "difficulty": "Medium",
+    "tags": [
+      "AB-",
+      "compatibility"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-008",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Enzymes",
+    "stem": "Which antigen is resistant to ficin/papain enzyme treatment?",
+    "options": [
+      "Duffy (Fya/Fyb)",
+      "Kell",
+      "MNS (M/N)",
+      "Duffy and MNS"
+    ],
+    "correct_index": 1,
+    "explanation": "Kell is relatively enzyme resistant; Duffy/MN are destroyed.",
+    "difficulty": "Medium",
+    "tags": [
+      "Kell",
+      "enzymes"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-009",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Enzyme enhancement",
+    "stem": "Antibodies typically enhanced by enzymes include:",
+    "options": [
+      "Duffy",
+      "MNS (M/N)",
+      "Rh and Kidd",
+      "D and Duffy"
+    ],
+    "correct_index": 2,
+    "explanation": "Rh, Kidd, Lewis, and P1 are enhanced after enzyme treatment.",
+    "difficulty": "Medium",
+    "tags": [
+      "enzyme",
+      "Rh",
+      "Kidd"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-010",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "AHG control",
+    "stem": "What control confirms AHG reagent activity in a negative DAT/IAT?",
+    "options": [
+      "Normal plasma",
+      "Saline",
+      "Coombs control cells",
+      "Factor-deficient plasma"
+    ],
+    "correct_index": 2,
+    "explanation": "IgG-coated control cells must agglutinate with AHG.",
+    "difficulty": "Easy",
+    "tags": [
+      "AHG",
+      "controls"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-011",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Warm autoantibody",
+    "stem": "All screen/panel cells positive; autocontrol +; DAT +. Next step:",
+    "options": [
+      "Issue blood",
+      "Warm the sample only",
+      "Perform adsorption to remove autoantibody",
+      "Use plasma instead of serum"
+    ],
+    "correct_index": 2,
+    "explanation": "Adsorption helps reveal underlying alloantibodies.",
+    "difficulty": "Hard",
+    "tags": [
+      "autoantibody",
+      "adsorption"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-012",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Cold agglutinin",
+    "stem": "DAT positive with anti-C3d only suggests:",
+    "options": [
+      "Warm IgG autoantibody",
+      "Cold agglutinin disease (IgM)",
+      "Drug-dependent IgG",
+      "ABO mismatch"
+    ],
+    "correct_index": 1,
+    "explanation": "Cold IgM fixes complement → C3d on RBCs with negative anti-IgG.",
+    "difficulty": "Hard",
+    "tags": [
+      "DAT",
+      "C3d"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-013",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Massive transfusion",
+    "stem": "Citrate toxicity during massive transfusion primarily causes:",
+    "options": [
+      "Hyperkalemia",
+      "Hypocalcemia",
+      "Hypercalcemia",
+      "Hypoglycemia"
+    ],
+    "correct_index": 1,
+    "explanation": "Citrate binds ionized calcium.",
+    "difficulty": "Medium",
+    "tags": [
+      "citrate",
+      "hypocalcemia"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-014",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Storage—Platelets",
+    "stem": "Platelets are stored:",
+    "options": [
+      "1–6°C without agitation",
+      "20–24°C with agitation",
+      "≤ −18°C frozen",
+      "Room temp without agitation"
+    ],
+    "correct_index": 1,
+    "explanation": "Platelets require room temp and gentle agitation.",
+    "difficulty": "Easy",
+    "tags": [
+      "platelets",
+      "storage"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-015",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Storage—FFP",
+    "stem": "Fresh Frozen Plasma should be stored at:",
+    "options": [
+      "1–6°C",
+      "≤ −18°C",
+      "20–24°C",
+      "4–8°C with agitation"
+    ],
+    "correct_index": 1,
+    "explanation": "FFP is stored frozen to preserve factors.",
+    "difficulty": "Easy",
+    "tags": [
+      "FFP",
+      "storage"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-016",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Emergency release",
+    "stem": "In life-threatening hemorrhage with unknown type, best initial RBC choice is:",
+    "options": [
+      "AB+",
+      "O−",
+      "A−",
+      "B−"
+    ],
+    "correct_index": 1,
+    "explanation": "O− packed cells minimize risk until typing is done.",
+    "difficulty": "Medium",
+    "tags": [
+      "O-",
+      "emergency"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-017",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Reaction—first step",
+    "stem": "First action for suspected transfusion reaction:",
+    "options": [
+      "Speed the transfusion",
+      "Stop transfusion; keep IV line with saline",
+      "Discard unit immediately",
+      "Give diuretics first"
+    ],
+    "correct_index": 1,
+    "explanation": "Stop transfusion and begin workup.",
+    "difficulty": "Easy",
+    "tags": [
+      "reaction",
+      "protocol"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-018",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Weak D",
+    "stem": "Weak D testing is primarily performed on:",
+    "options": [
+      "Donor units labeled Rh−",
+      "Newborns of Rh− mothers",
+      "All transfusion candidates",
+      "Only AB donors"
+    ],
+    "correct_index": 0,
+    "explanation": "Detects weak D to avoid mislabeling donors as Rh−.",
+    "difficulty": "Hard",
+    "tags": [
+      "weak D",
+      "donor"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-019",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Irradiation",
+    "stem": "Irradiated RBCs indicated to prevent TA-GVHD in:",
+    "options": [
+      "IgA deficiency",
+      "Intrauterine transfusion or severe immunodeficiency",
+      "Hyperkalemia",
+      "Massive transfusion only"
+    ],
+    "correct_index": 1,
+    "explanation": "Irradiation inactivates donor lymphocytes.",
+    "difficulty": "Medium",
+    "tags": [
+      "irradiation",
+      "GVHD"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-020",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Washed RBCs",
+    "stem": "Washed RBCs are appropriate for patients with:",
+    "options": [
+      "FNHTR history",
+      "IgA deficiency with anti-IgA",
+      "TTP",
+      "DIC"
+    ],
+    "correct_index": 1,
+    "explanation": "Removes plasma proteins including IgA.",
+    "difficulty": "Hard",
+    "tags": [
+      "washed RBC"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-021",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "IS crossmatch",
+    "stem": "Immediate-spin crossmatch primarily detects:",
+    "options": [
+      "IgG alloantibodies at 37°C",
+      "ABO incompatibility at RT",
+      "Complement coating",
+      "DAT positivity"
+    ],
+    "correct_index": 1,
+    "explanation": "IS checks ABO compatibility; AHG phase detects IgG alloantibodies.",
+    "difficulty": "Medium",
+    "tags": [
+      "crossmatch"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "BB-022",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "Sickle disease units",
+    "stem": "SCD patients should receive units that are:",
+    "options": [
+      "HbS positive",
+      "HbS negative and extended antigen-matched",
+      "Random O− only",
+      "CMV positive acceptable"
+    ],
+    "correct_index": 1,
+    "explanation": "HbS− and antigen-matched reduce alloimmunization and sickling.",
+    "difficulty": "Hard",
+    "tags": [
+      "SCD",
+      "matching"
+    ],
+    "refs": [
+      "ASH/AABB"
+    ]
+  },
+  {
+    "id": "BB-023",
+    "domain": "Blood Bank (Transfusion Medicine)",
+    "subtopic": "ABO vs Rh HDN",
+    "stem": "ABO hemolytic disease of the newborn is typically:",
+    "options": [
+      "Severe with hydrops",
+      "Mild with weak/negative DAT",
+      "Requires frequent exchange transfusions",
+      "Only in O− mothers"
+    ],
+    "correct_index": 1,
+    "explanation": "ABO HDN is often mild compared to Rh disease.",
+    "difficulty": "Medium",
+    "tags": [
+      "HDN",
+      "ABO"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "URINE-001",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Ketones",
+    "stem": "Most specific urine ketone test primarily detects:",
+    "options": [
+      "Acetone",
+      "β-hydroxybutyrate",
+      "Acetoacetate (nitroprusside)",
+      "Isopropanol"
+    ],
+    "correct_index": 2,
+    "explanation": "Nitroprusside detects acetoacetate.",
+    "difficulty": "Medium",
+    "tags": [
+      "ketones",
+      "nitroprusside"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "URINE-002",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Casts",
+    "stem": "RBC casts suggest:",
+    "options": [
+      "Lower UTI",
+      "Acute glomerulonephritis",
+      "Nephrotic syndrome only",
+      "Prerenal azotemia"
+    ],
+    "correct_index": 1,
+    "explanation": "RBC casts indicate glomerular bleeding.",
+    "difficulty": "Medium",
+    "tags": [
+      "casts",
+      "GN"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-003",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Crystals",
+    "stem": "Hexagonal crystals in acidic urine indicate:",
+    "options": [
+      "Cystine",
+      "Calcium oxalate",
+      "Uric acid",
+      "Triple phosphate"
+    ],
+    "correct_index": 0,
+    "explanation": "Cystine crystals are hexagonal; think cystinuria.",
+    "difficulty": "Medium",
+    "tags": [
+      "crystals",
+      "cystine"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-004",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "CSF—viral",
+    "stem": "CSF with normal glucose, mild ↑ protein, and lymphocytosis suggests:",
+    "options": [
+      "Bacterial meningitis",
+      "Viral meningitis",
+      "TB meningitis",
+      "Fungal meningitis"
+    ],
+    "correct_index": 1,
+    "explanation": "Viral meningitis shows normal glucose and lymphocytes.",
+    "difficulty": "Easy",
+    "tags": [
+      "CSF",
+      "viral"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "URINE-005",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Semen",
+    "stem": "Recommended stain for sperm morphology & vitality:",
+    "options": [
+      "Gram stain",
+      "Eosin–nigrosin",
+      "Papanicolaou only",
+      "Wright–Giemsa"
+    ],
+    "correct_index": 1,
+    "explanation": "Eosin–nigrosin assesses vitality and morphology.",
+    "difficulty": "Easy",
+    "tags": [
+      "semen",
+      "stain"
+    ],
+    "refs": [
+      "WHO Manual"
+    ]
+  },
+  {
+    "id": "URINE-006",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Pleural",
+    "stem": "Milky pleural effusion with high triglycerides suggests:",
+    "options": [
+      "Empyema",
+      "Hemothorax",
+      "Chylothorax",
+      "Transudate"
+    ],
+    "correct_index": 2,
+    "explanation": "Chylous effusions contain chylomicrons; TG high.",
+    "difficulty": "Medium",
+    "tags": [
+      "pleural",
+      "chyle"
+    ],
+    "refs": [
+      "Light’s criteria"
+    ]
+  },
+  {
+    "id": "URINE-007",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Dipstick nitrite",
+    "stem": "Urine nitrite test is most specific for:",
+    "options": [
+      "Gram-positive cocci",
+      "Non-nitrate reducers",
+      "Enterobacteriaceae",
+      "Yeasts"
+    ],
+    "correct_index": 2,
+    "explanation": "Enterobacteriaceae reduce nitrate to nitrite.",
+    "difficulty": "Medium",
+    "tags": [
+      "nitrite",
+      "UTI"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-008",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Leukocyte esterase",
+    "stem": "Positive leukocyte esterase reflects:",
+    "options": [
+      "Bacteria only",
+      "WBC (granulocyte) esterase activity",
+      "Hematuria",
+      "Proteinuria"
+    ],
+    "correct_index": 1,
+    "explanation": "Detects neutrophil esterase—pyuria.",
+    "difficulty": "Easy",
+    "tags": [
+      "LE",
+      "UTI"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-009",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Waxy casts",
+    "stem": "Waxy casts are associated with:",
+    "options": [
+      "Acute tubular necrosis",
+      "Chronic renal failure",
+      "Acute pyelonephritis",
+      "Lower UTI"
+    ],
+    "correct_index": 1,
+    "explanation": "Waxy casts indicate advanced/chronic kidney disease.",
+    "difficulty": "Medium",
+    "tags": [
+      "casts",
+      "waxy"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-010",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Nephrotic syndrome",
+    "stem": "Oval fat bodies in urine are characteristic of:",
+    "options": [
+      "Nephrotic syndrome",
+      "Glomerulonephritis",
+      "UTI",
+      "Dehydration"
+    ],
+    "correct_index": 0,
+    "explanation": "Lipid-laden cells in nephrotic syndrome.",
+    "difficulty": "Easy",
+    "tags": [
+      "oval fat",
+      "nephrotic"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-011",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Cast matrix",
+    "stem": "Matrix protein forming urinary casts is produced by:",
+    "options": [
+      "Glomerular endothelium",
+      "Urothelium",
+      "Distal nephron (Tamm–Horsfall protein)",
+      "Proximal tubule only"
+    ],
+    "correct_index": 2,
+    "explanation": "Uromodulin from thick ascending limb/distal tubule forms the cast matrix.",
+    "difficulty": "Medium",
+    "tags": [
+      "uromodulin"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-012",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Microalbuminuria",
+    "stem": "Best screen for early diabetic nephropathy is urinary:",
+    "options": [
+      "Dipstick protein",
+      "Albumin/creatinine ratio",
+      "24-h protein only",
+      "β2-microglobulin"
+    ],
+    "correct_index": 1,
+    "explanation": "Spot ACR detects microalbuminuria.",
+    "difficulty": "Medium",
+    "tags": [
+      "microalbumin"
+    ],
+    "refs": [
+      "ADA"
+    ]
+  },
+  {
+    "id": "URINE-013",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "ATN",
+    "stem": "Muddy brown granular casts are typical of:",
+    "options": [
+      "Acute GN",
+      "Acute tubular necrosis",
+      "Nephrotic syndrome",
+      "Lower UTI"
+    ],
+    "correct_index": 1,
+    "explanation": "ATN produces granular casts from tubular injury.",
+    "difficulty": "Hard",
+    "tags": [
+      "ATN",
+      "casts"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-014",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "Glomerular bleeding",
+    "stem": "Dysmorphic RBCs with RBC casts indicate bleeding from the:",
+    "options": [
+      "Lower urinary tract",
+      "Glomerulus",
+      "Renal pelvis",
+      "Prostate"
+    ],
+    "correct_index": 1,
+    "explanation": "Dysmorphic RBCs reflect glomerular origin.",
+    "difficulty": "Medium",
+    "tags": [
+      "dysmorphic RBC"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "URINE-015",
+    "domain": "Urinalysis & Other Body Fluids",
+    "subtopic": "CSF—bacterial",
+    "stem": "Low CSF glucose with neutrophilic pleocytosis and high protein suggests:",
+    "options": [
+      "Bacterial meningitis",
+      "Viral meningitis",
+      "Normal CSF",
+      "Multiple sclerosis"
+    ],
+    "correct_index": 0,
+    "explanation": "Classic bacterial meningitis profile.",
+    "difficulty": "Easy",
+    "tags": [
+      "CSF",
+      "bacterial"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "IMM-001",
+    "domain": "Immunology",
+    "subtopic": "Complement",
+    "stem": "C3 convertase in the classical pathway is:",
+    "options": [
+      "C3bBb",
+      "C4b2a",
+      "C1 esterase",
+      "C5b-9"
+    ],
+    "correct_index": 1,
+    "explanation": "Classical/lectin C3 convertase is C4b2a.",
+    "difficulty": "Medium",
+    "tags": [
+      "complement",
+      "C3"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-002",
+    "domain": "Immunology",
+    "subtopic": "Autoantibodies",
+    "stem": "High anti-TPO and anti-thyroglobulin suggest:",
+    "options": [
+      "Graves disease",
+      "Hashimoto thyroiditis",
+      "Subacute thyroiditis",
+      "Toxic nodular goiter"
+    ],
+    "correct_index": 1,
+    "explanation": "Hashimoto’s thyroiditis shows anti-TPO/anti-Tg.",
+    "difficulty": "Easy",
+    "tags": [
+      "anti-TPO",
+      "Hashimoto"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-003",
+    "domain": "Immunology",
+    "subtopic": "Fc receptors",
+    "stem": "Phagocyte binding to Fc portion of IgG is via:",
+    "options": [
+      "CR1",
+      "Fcγ receptor",
+      "TLR4",
+      "CD28"
+    ],
+    "correct_index": 1,
+    "explanation": "FcγR mediates opsonized phagocytosis.",
+    "difficulty": "Easy",
+    "tags": [
+      "Fc receptor"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-004",
+    "domain": "Immunology",
+    "subtopic": "Lymphocyte development",
+    "stem": "Site of T-cell maturation is:",
+    "options": [
+      "Bone marrow",
+      "Thymus",
+      "Spleen",
+      "Lymph nodes"
+    ],
+    "correct_index": 1,
+    "explanation": "T cells mature in the thymus.",
+    "difficulty": "Easy",
+    "tags": [
+      "thymus",
+      "T cells"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-005",
+    "domain": "Immunology",
+    "subtopic": "Hypersensitivity I",
+    "stem": "Type I hypersensitivity is mediated by:",
+    "options": [
+      "IgE and mast cells",
+      "IgG immune complexes",
+      "T-cell cytotoxicity",
+      "Complement only"
+    ],
+    "correct_index": 0,
+    "explanation": "Immediate allergy is IgE-mediated.",
+    "difficulty": "Easy",
+    "tags": [
+      "IgE",
+      "allergy"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-006",
+    "domain": "Immunology",
+    "subtopic": "Complement alt",
+    "stem": "Alternative-pathway C5 convertase is:",
+    "options": [
+      "C4b2a3b",
+      "C3bBb3b",
+      "C3b2Bb",
+      "C1qrs"
+    ],
+    "correct_index": 1,
+    "explanation": "Alternative C5 convertase is C3bBb with an added C3b.",
+    "difficulty": "Hard",
+    "tags": [
+      "C5 convertase"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-007",
+    "domain": "Immunology",
+    "subtopic": "Hypersensitivity II",
+    "stem": "Acute hemolytic transfusion reaction exemplifies:",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "correct_index": 1,
+    "explanation": "Antibody-mediated cytotoxicity against RBC antigens.",
+    "difficulty": "Medium",
+    "tags": [
+      "Type II"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-008",
+    "domain": "Immunology",
+    "subtopic": "Vaccines",
+    "stem": "Intranasal influenza vaccine is:",
+    "options": [
+      "Inactivated",
+      "Live-attenuated",
+      "Toxoid",
+      "Subunit"
+    ],
+    "correct_index": 1,
+    "explanation": "The intranasal formulation is live-attenuated.",
+    "difficulty": "Medium",
+    "tags": [
+      "vaccines"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "IMM-009",
+    "domain": "Immunology",
+    "subtopic": "ELISA",
+    "stem": "ELISA detects antigen–antibody binding using:",
+    "options": [
+      "Radioactivity",
+      "Enzyme-linked color change",
+      "Agglutination only",
+      "Fluorescent quenching only"
+    ],
+    "correct_index": 1,
+    "explanation": "Enzyme-labeled reactions produce color change.",
+    "difficulty": "Easy",
+    "tags": [
+      "ELISA"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-010",
+    "domain": "Immunology",
+    "subtopic": "Coombs",
+    "stem": "Indirect Coombs (IAT) detects:",
+    "options": [
+      "Antibodies bound to RBCs in vivo",
+      "Free antibodies in serum against RBC antigens",
+      "Complement consumption only",
+      "Platelet antibodies"
+    ],
+    "correct_index": 1,
+    "explanation": "IAT screens serum for alloantibodies; DAT detects in vivo coating.",
+    "difficulty": "Medium",
+    "tags": [
+      "IAT",
+      "DAT"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "IMM-011",
+    "domain": "Immunology",
+    "subtopic": "TLR4",
+    "stem": "TLR4 recognizes:",
+    "options": [
+      "Peptidoglycan",
+      "Lipopolysaccharide (LPS)",
+      "Flagellin",
+      "CpG DNA"
+    ],
+    "correct_index": 1,
+    "explanation": "TLR4 binds endotoxin (LPS).",
+    "difficulty": "Easy",
+    "tags": [
+      "TLR4",
+      "LPS"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-012",
+    "domain": "Immunology",
+    "subtopic": "Complement deficiency",
+    "stem": "C5–C9 (MAC) deficiency predisposes to recurrent infections with:",
+    "options": [
+      "Staphylococcus aureus",
+      "Neisseria species",
+      "Listeria",
+      "Mycobacterium"
+    ],
+    "correct_index": 1,
+    "explanation": "MAC defects → Neisseria susceptibility.",
+    "difficulty": "Medium",
+    "tags": [
+      "MAC",
+      "Neisseria"
+    ],
+    "refs": [
+      "Abbas"
+    ]
+  },
+  {
+    "id": "IMM-013",
+    "domain": "Immunology",
+    "subtopic": "Autoimmunity",
+    "stem": "High ANA with anti-dsDNA is most specific for:",
+    "options": [
+      "RA",
+      "Sjögren syndrome",
+      "SLE",
+      "Dermatomyositis"
+    ],
+    "correct_index": 2,
+    "explanation": "Anti-dsDNA is specific for SLE.",
+    "difficulty": "Medium",
+    "tags": [
+      "SLE",
+      "dsDNA"
+    ],
+    "refs": [
+      "UpToDate"
+    ]
+  },
+  {
+    "id": "IMM-014",
+    "domain": "Immunology",
+    "subtopic": "HIV testing",
+    "stem": "Recommended early screening test in HIV window period:",
+    "options": [
+      "Western blot only",
+      "4th-gen Ag/Ab (p24 + Ab)",
+      "p24 antigen alone",
+      "CD4 count"
+    ],
+    "correct_index": 1,
+    "explanation": "4th-gen detects p24 earlier than antibodies alone.",
+    "difficulty": "Hard",
+    "tags": [
+      "HIV",
+      "p24"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "IMM-015",
+    "domain": "Immunology",
+    "subtopic": "SPEP pattern",
+    "stem": "Monoclonal gammopathy on SPEP shows:",
+    "options": [
+      "Broad-based gamma increase",
+      "Narrow spike (M-protein)",
+      "Beta–gamma bridging",
+      "Flat gamma region"
+    ],
+    "correct_index": 1,
+    "explanation": "Monoclonal spike characterizes plasma cell dyscrasias.",
+    "difficulty": "Easy",
+    "tags": [
+      "SPEP",
+      "M-spike"
+    ],
+    "refs": [
+      "Henry’s"
+    ]
+  },
+  {
+    "id": "LAB-001",
+    "domain": "Lab Operations",
+    "subtopic": "Westgard rules",
+    "stem": "Two consecutive QC results > +2SD violate which rule first?",
+    "options": [
+      "1(3s)",
+      "2(2s)",
+      "R(4s)",
+      "10x only"
+    ],
+    "correct_index": 1,
+    "explanation": "2(2s) is triggered by two results beyond ±2SD.",
+    "difficulty": "Hard",
+    "tags": [
+      "Westgard",
+      "QC"
+    ],
+    "refs": [
+      "Westgard QC"
+    ]
+  },
+  {
+    "id": "LAB-002",
+    "domain": "Lab Operations",
+    "subtopic": "Proficiency testing",
+    "stem": "Program sending unknowns from CMS-approved provider is:",
+    "options": [
+      "Internal QC",
+      "Proficiency testing (EQA)",
+      "Calibration verification",
+      "Method validation"
+    ],
+    "correct_index": 1,
+    "explanation": "PT/EQA assesses inter-lab performance.",
+    "difficulty": "Easy",
+    "tags": [
+      "EQA",
+      "PT"
+    ],
+    "refs": [
+      "CLIA"
+    ]
+  },
+  {
+    "id": "LAB-003",
+    "domain": "Lab Operations",
+    "subtopic": "Specimen integrity",
+    "stem": "EDTA tube with clot most likely due to:",
+    "options": [
+      "Underfilled tube",
+      "Infection",
+      "Cold agglutinins",
+      "No issue"
+    ],
+    "correct_index": 0,
+    "explanation": "Underfill alters blood:anticoagulant ratio.",
+    "difficulty": "Easy",
+    "tags": [
+      "EDTA",
+      "clot"
+    ],
+    "refs": [
+      "CLSI"
+    ]
+  },
+  {
+    "id": "LAB-004",
+    "domain": "Lab Operations",
+    "subtopic": "Labeling",
+    "stem": "Blood bag label smudged/unreadable. Correct action:",
+    "options": [
+      "Proceed if donor ID known",
+      "Quarantine and investigate",
+      "Relabel manually",
+      "Use for in-house testing"
+    ],
+    "correct_index": 1,
+    "explanation": "Mislabeling is critical risk; quarantine and investigate.",
+    "difficulty": "Easy",
+    "tags": [
+      "label",
+      "safety"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "LAB-005",
+    "domain": "Lab Operations",
+    "subtopic": "Precision vs accuracy",
+    "stem": "Repeated Hb results of 13.5, 13.4, 13.5, 13.6 g/dL indicate:",
+    "options": [
+      "High precision",
+      "High accuracy",
+      "Poor accuracy",
+      "Poor precision"
+    ],
+    "correct_index": 0,
+    "explanation": "Tight clustering indicates precision.",
+    "difficulty": "Easy",
+    "tags": [
+      "precision"
+    ],
+    "refs": [
+      "Tietz"
+    ]
+  },
+  {
+    "id": "LAB-006",
+    "domain": "Lab Operations",
+    "subtopic": "Anticoagulant monitoring",
+    "stem": "Which anticoagulant is monitored by PT/INR?",
+    "options": [
+      "Heparin",
+      "Warfarin",
+      "LMWH",
+      "Apixaban"
+    ],
+    "correct_index": 1,
+    "explanation": "Warfarin affects extrinsic pathway → PT/INR.",
+    "difficulty": "Easy",
+    "tags": [
+      "PT",
+      "warfarin"
+    ],
+    "refs": [
+      "CLSI"
+    ]
+  },
+  {
+    "id": "LAB-007",
+    "domain": "Lab Operations",
+    "subtopic": "Shifts",
+    "stem": "QC mean suddenly shifts upward with stable SD. Most likely:",
+    "options": [
+      "Random error",
+      "Systematic shift (calibration change)",
+      "Trend",
+      "Clerical error only"
+    ],
+    "correct_index": 1,
+    "explanation": "Stable but displaced mean indicates a shift/systematic error.",
+    "difficulty": "Medium",
+    "tags": [
+      "QC",
+      "shift"
+    ],
+    "refs": [
+      "Westgard"
+    ]
+  },
+  {
+    "id": "LAB-008",
+    "domain": "Lab Operations",
+    "subtopic": "Trends",
+    "stem": "Gradual drift of QC values in one direction is:",
+    "options": [
+      "Shift",
+      "Trend",
+      "2(2s) violation",
+      "Random error"
+    ],
+    "correct_index": 1,
+    "explanation": "Trend is a gradual change; shift is abrupt.",
+    "difficulty": "Easy",
+    "tags": [
+      "trend"
+    ],
+    "refs": [
+      "Westgard"
+    ]
+  },
+  {
+    "id": "LAB-009",
+    "domain": "Lab Operations",
+    "subtopic": "Calibration verification",
+    "stem": "Calibration verification checks:",
+    "options": [
+      "Inter-lab agreement",
+      "Linearity/accuracy across reportable range",
+      "Carryover",
+      "Imprecision only"
+    ],
+    "correct_index": 1,
+    "explanation": "Verifies accuracy/linearity across the measuring range.",
+    "difficulty": "Medium",
+    "tags": [
+      "calibration",
+      "verification"
+    ],
+    "refs": [
+      "CLSI"
+    ]
+  },
+  {
+    "id": "LAB-010",
+    "domain": "Lab Operations",
+    "subtopic": "Light sensitivity",
+    "stem": "Which analyte is most affected by light exposure?",
+    "options": [
+      "Sodium",
+      "Chloride",
+      "Calcium",
+      "Bilirubin"
+    ],
+    "correct_index": 3,
+    "explanation": "Bilirubin is photosensitive; protect from light.",
+    "difficulty": "Easy",
+    "tags": [
+      "bilirubin"
+    ],
+    "refs": [
+      "CLSI"
+    ]
+  },
+  {
+    "id": "LAB-011",
+    "domain": "Lab Operations",
+    "subtopic": "Reference intervals",
+    "stem": "Best practice to establish a reference interval:",
+    "options": [
+      "Use 10 healthy volunteers",
+      "Adopt manufacturer’s interval blindly",
+      "Validate with ≥20 or establish with 120 healthy subjects",
+      "Use previous hospital data only"
+    ],
+    "correct_index": 2,
+    "explanation": "CLSI recommends verification (≥20) or establishment (≥120).",
+    "difficulty": "Hard",
+    "tags": [
+      "reference interval"
+    ],
+    "refs": [
+      "CLSI C28"
+    ]
+  },
+  {
+    "id": "PS-001",
+    "domain": "Patient Safety & Professionalism",
+    "subtopic": "Transfusion safety",
+    "stem": "Most critical step to prevent transfusion errors is:",
+    "options": [
+      "Crossmatch only",
+      "Positive patient identification at bedside",
+      "Using O− for all",
+      "Speed of delivery"
+    ],
+    "correct_index": 1,
+    "explanation": "Bedside ID/labeling is the key safety step.",
+    "difficulty": "Easy",
+    "tags": [
+      "patient ID"
+    ],
+    "refs": [
+      "AABB"
+    ]
+  },
+  {
+    "id": "PS-002",
+    "domain": "Patient Safety & Professionalism",
+    "subtopic": "Donor deferral",
+    "stem": "Recovered from malaria 8 months ago, asymptomatic. Donor eligibility:",
+    "options": [
+      "Accept now",
+      "Permanent deferral",
+      "Defer until 12 months after recovery",
+      "Accept with physician note"
+    ],
+    "correct_index": 2,
+    "explanation": "Most standards require 12-month deferral post-malaria.",
+    "difficulty": "Medium",
+    "tags": [
+      "donor",
+      "malaria"
+    ],
+    "refs": [
+      "WHO Blood Safety"
+    ]
+  },
+  {
+    "id": "PS-003",
+    "domain": "Patient Safety & Professionalism",
+    "subtopic": "Needlestick",
+    "stem": "First step after a needlestick injury is:",
+    "options": [
+      "Ignore if minor",
+      "Wash area and report immediately for risk assessment",
+      "Wait for serology",
+      "Start antibiotics"
+    ],
+    "correct_index": 1,
+    "explanation": "Immediate cleansing and reporting enable timely PEP.",
+    "difficulty": "Easy",
+    "tags": [
+      "needlestick",
+      "PEP"
+    ],
+    "refs": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "PS-004",
+    "domain": "Patient Safety & Professionalism",
+    "subtopic": "LIS security",
+    "stem": "Primary purpose of passwords in LIS is to:",
+    "options": [
+      "Track productivity",
+      "Ensure confidentiality and data security",
+      "Simplify login",
+      "Speed up the system"
+    ],
+    "correct_index": 1,
+    "explanation": "Passwords authenticate users and protect PHI.",
+    "difficulty": "Easy",
+    "tags": [
+      "LIS",
+      "PHI"
+    ],
+    "refs": [
+      "HIPAA"
+    ]
+  },
+  {
+    "id": "PS-005",
+    "domain": "Patient Safety & Professionalism",
+    "subtopic": "Consent/ethics",
+    "stem": "Best way to maintain confidentiality in the lab is to:",
+    "options": [
+      "Discuss results in open areas",
+      "Share data via personal email",
+      "Access records only when required",
+      "Use generic passwords"
+    ],
+    "correct_index": 2,
+    "explanation": "Use minimum necessary access and secure systems.",
+    "difficulty": "Easy",
+    "tags": [
+      "confidentiality"
+    ],
+    "refs": [
+      "HIPAA"
+    ]
+  },
+  {
+    "id": "PS-006",
+    "domain": "Patient Safety & Professionalism",
+    "subtopic": "Specimen ID",
+    "stem": "What is the safest practice for bedside labeling of samples?",
+    "options": [
+      "Prelabel tubes at the bench",
+      "Label after leaving bedside",
+      "Label at bedside using two unique identifiers",
+      "Rely on room number only"
+    ],
+    "correct_index": 2,
+    "explanation": "Two identifiers at bedside reduce misidentification risk.",
+    "difficulty": "Medium",
+    "tags": [
+      "specimen ID"
+    ],
+    "refs": [
+      "CLSI GP33"
+    ]
+  },
+  {
+    "id": "HISTO-001",
+    "domain": "Histo/Cyto-Techniques",
+    "subtopic": "Processing order",
+    "stem": "Correct order of routine tissue processing is:",
+    "options": [
+      "Clearing → Fixation → Dehydration → Infiltration",
+      "Fixation → Dehydration → Clearing → Infiltration",
+      "Fixation → Clearing → Dehydration → Infiltration",
+      "Dehydration → Fixation → Clearing → Infiltration"
+    ],
+    "correct_index": 1,
+    "explanation": "Standard: Fixation → graded Dehydration → Clearing → Infiltration.",
+    "difficulty": "Medium",
+    "tags": [
+      "processing"
+    ],
+    "refs": [
+      "Bancroft"
+    ]
+  },
+  {
+    "id": "HISTO-002",
+    "domain": "Histo/Cyto-Techniques",
+    "subtopic": "Infiltration media",
+    "stem": "Which materials can be used for tissue infiltration (embedding/support)?",
+    "options": [
+      "Alcohol, xylene, acetone",
+      "Paraffin wax, resin, agar, gelatin, celloidin",
+      "Bouin’s, formalin",
+      "Hematoxylin, eosin"
+    ],
+    "correct_index": 1,
+    "explanation": "Infiltration uses paraffin, resins, agar, gelatin, celloidin.",
+    "difficulty": "Easy",
+    "tags": [
+      "infiltration"
+    ],
+    "refs": [
+      "Bancroft"
+    ]
+  },
+  {
+    "id": "HISTO-003",
+    "domain": "Histo/Cyto-Techniques",
+    "subtopic": "DNA gel stain",
+    "stem": "Which reagent stains DNA in gel electrophoresis?",
+    "options": [
+      "Crystal violet",
+      "Ethidium bromide",
+      "Safranin",
+      "Malachite green"
+    ],
+    "correct_index": 1,
+    "explanation": "Ethidium bromide intercalates DNA; fluoresces under UV.",
+    "difficulty": "Easy",
+    "tags": [
+      "EtBr",
+      "DNA"
+    ],
+    "refs": [
+      "Molecular Cloning"
+    ]
+  },
+  {
+    "id": "HISTO-004",
+    "domain": "Histo/Cyto-Techniques",
+    "subtopic": "Decalcification",
+    "stem": "A gentle decalcifying agent that preserves nucleic acids is:",
+    "options": [
+      "Hydrochloric acid",
+      "Nitric acid",
+      "EDTA solution",
+      "Lithium carbonate"
+    ],
+    "correct_index": 2,
+    "explanation": "EDTA chelation preserves morphology/nucleic acids better than strong acids.",
+    "difficulty": "Medium",
+    "tags": [
+      "decalcification",
+      "EDTA"
+    ],
+    "refs": [
+      "Bancroft"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "name": "SCFHS MLT AI Question Generator",
+  "description": "An AI-powered application for educators and content creators to generate high-quality exam questions for the Saudi Commission for Health Specialties (SCFHS) Medical Laboratory Technology (MLT) exam. Users can specify the domain, subtopic, difficulty, and language to receive a complete multiple-choice question.",
+  "requestFramePermissions": []
+}
