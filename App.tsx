@@ -1,18 +1,18 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { Question, Difficulty, Language, Domain, AppMode, ExamStatus, EXAM_SPEC, User } from './types';
-import { generateQuestion, generateFullExam } from './services/geminiService';
-import * as db from './services/database';
-import * as auth from './services/authService';
-import QuestionGeneratorForm from './components/QuestionGeneratorForm';
-import QuestionDisplay from './components/QuestionDisplay';
-import LoadingSpinner from './components/LoadingSpinner';
-import ErrorMessage from './components/ErrorMessage';
-import ExamView from './components/ExamView';
-import ExamResults from './components/ExamResults';
-import QuestionBankManager from './components/QuestionBankManager';
-import IncorrectReviewView from './components/IncorrectReviewView';
-import AuthView from './components/AuthView';
-import AdminDashboard from './components/AdminDashboard';
+import { Question, Difficulty, Language, Domain, AppMode, ExamStatus, EXAM_SPEC, User } from './src/types';
+import { generateQuestion, generateFullExam } from './src/services/geminiService';
+import * as db from './src/services/database';
+import * as auth from './src/services/authService';
+import QuestionGeneratorForm from './src/components/QuestionGeneratorForm';
+import QuestionDisplay from './src/components/QuestionDisplay';
+import LoadingSpinner from './src/components/LoadingSpinner';
+import ErrorMessage from './src/components/ErrorMessage';
+import ExamView from './src/components/ExamView';
+import ExamResults from './src/components/ExamResults';
+import QuestionBankManager from './src/components/QuestionBankManager';
+import IncorrectReviewView from './src/components/IncorrectReviewView';
+import AuthView from './src/components/AuthView';
+import AdminDashboard from './src/components/AdminDashboard';
 
 
 const EXAM_PROGRESS_KEY = 'examProgress';
