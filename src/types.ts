@@ -1,27 +1,42 @@
 export enum Difficulty {
-  Easy = 1,
-  Medium = 2,
-  Hard = 3,
+  Easy = 'Easy',
+  Medium = 'Medium',
+  Hard = 'Hard',
 }
 
 export enum Language {
-  English = 'en',
-  Arabic = 'ar',
+  English = 'English',
+  Arabic = 'Arabic',
 }
 
-export type Domain = 
-  | 'Clinical Chemistry'
-  | 'Hematology'
-  | 'Microbiology'
-  | 'Blood Bank'
-  | 'Immunology'
-  | 'Urinalysis & Other Body Fluids'
-  | 'Lab Operations'
-  | 'Patient Safety & Professionalism'
-  | 'Histo/Cyto-Techniques';
+export const DOMAINS = [
+  'Clinical Chemistry',
+  'Urinalysis & Other Body Fluids',
+  'Immunology',
+  'Blood Bank (Transfusion Medicine)',
+  'Hematology',
+  'Microbiology',
+  'Lab Operations',
+  'Patient Safety & Professionalism',
+  'Histo/Cyto-Techniques',
+] as const;
+
+export type Domain = typeof DOMAINS[number];
+
+export const SUBTOPICS_MAP: Record<Domain, string[]> = {
+  'Clinical Chemistry': ['Electrolytes & Blood Gases', 'Enzymology', 'Endocrinology', 'Toxicology & TDM', 'Carbohydrates & Lipids', 'Proteins & Tumor Markers', 'Liver & Renal Function'],
+  'Urinalysis & Other Body Fluids': ['Routine Urinalysis', 'Microscopic Examination', 'Cerebrospinal Fluid (CSF)', 'Synovial & Serous Fluids', 'Amniotic Fluid'],
+  'Immunology': ['Cellular Immunity', 'Humoral Immunity', 'Autoimmune Diseases', 'Hypersensitivity Reactions', 'Immunodeficiency Disorders', 'Serology & Infectious Diseases'],
+  'Blood Bank (Transfusion Medicine)': ['ABO/Rh Grouping', 'Antibody Screening & ID', 'Crossmatching', 'Transfusion Reactions', 'Blood Components & Therapy', 'Donor Processing'],
+  'Hematology': ['Complete Blood Count (CBC)', 'WBC Differential', 'RBC Morphology & Anemias', 'Hemostasis & Coagulation', 'Hematologic Malignancies', 'Bone Marrow Examination'],
+  'Microbiology': ['Bacteriology', 'Mycology', 'Parasitology', 'Virology', 'Antimicrobial Susceptibility', 'Specimen Processing & Culture'],
+  'Lab Operations': ['Quality Control & Assurance', 'Laboratory Safety', 'Instrumentation', 'Laboratory Information Systems (LIS)', 'Phlebotomy & Specimen Collection'],
+  'Patient Safety & Professionalism': ['Patient Identification', 'Critical Value Reporting', 'Professional Ethics', 'Communication', 'Continuing Education'],
+  'Histo/Cyto-Techniques': ['Tissue Fixation & Processing', 'Staining Techniques', 'Immunohistochemistry (IHC)', 'Cytology Specimen Preparation', 'Microtomy'],
+};
 
 export interface Question {
-  id: string;
+  id?: string;
   stem: string;
   options: string[];
   correct_index: number;
@@ -30,32 +45,8 @@ export interface Question {
   subtopic: string;
   difficulty: Difficulty;
   tags: string[];
-  image_url?: string;
-  refs?: string[];
-  is_active: boolean;
-  created_at?: string;
-  updated_at?: string;
+  refs: string[];
 }
-
-export type AppMode = 'single-question' | 'exam' | 'question-bank' | 'review-incorrect';
-
-export type ExamStatus = 'not-started' | 'generating' | 'ready' | 'in-progress' | 'finished';
-
-export const EXAM_SPEC = {
-  totalQuestions: 150,
-  durationMinutes: 180,
-  passingScore: 60,
-  domainWeights: {
-    'Clinical Chemistry': 0.20,
-    'Hematology': 0.20,
-    'Microbiology': 0.20,
-    'Blood Bank': 0.20,
-    'Immunology': 0.10,
-    'Urinalysis & Other Body Fluids': 0.05,
-    'Lab Operations': 0.03,
-    'Patient Safety & Professionalism': 0.02,
-  }
-};
 
 export interface User {
   id: string;
@@ -63,31 +54,39 @@ export interface User {
   age: number;
   phone: string;
   email: string;
-  password?: string; // Should not be sent to client, but needed for simulation
+  password?: string;
   role: 'user' | 'admin';
 }
 
-export interface AttemptData {
-  id: string;
-  userId: string;
-  examType: string;
-  startedAt: string;
-  finishedAt?: string;
-  scorePct?: number;
-  passed?: boolean;
-  timeTotalSec?: number;
-  breakdownJson?: any;
-  tabLeaveCount: number;
+export const EXAM_SPEC = {
+  totalQuestions: 150,
+  durationMinutes: 180,
+  passPercentage: 60,
+  weights: {
+    'Clinical Chemistry': 0.20,
+    'Hematology': 0.20,
+    'Microbiology': 0.20,
+    'Blood Bank (Transfusion Medicine)': 0.20,
+    'Immunology': 0.10,
+    'Urinalysis & Other Body Fluids': 0.05,
+    'Lab Operations': 0.05,
+    'Patient Safety & Professionalism': 0.00,
+    'Histo/Cyto-Techniques': 0.00,
+  },
+};
+
+// Distribute remaining percentages for 0% domains
+const zeroWeightDomains = Object.keys(EXAM_SPEC.weights).filter(d => EXAM_SPEC.weights[d as Domain] === 0);
+const nonZeroWeightDomains = Object.keys(EXAM_SPEC.weights).filter(d => EXAM_SPEC.weights[d as Domain] > 0);
+const totalWeight = Object.values(EXAM_SPEC.weights).reduce((sum, w) => sum + w, 0);
+
+if (totalWeight < 1 && nonZeroWeightDomains.length > 0) {
+    const remainingWeight = 1 - totalWeight;
+    const distribution = remainingWeight / nonZeroWeightDomains.length;
+    nonZeroWeightDomains.forEach(d => {
+        EXAM_SPEC.weights[d as Domain] += distribution;
+    });
 }
 
-export interface ResponseData {
-  id: string;
-  attemptId: string;
-  questionId: string;
-  selectedIndex?: number;
-  correct: boolean;
-  timeSpentSec?: number;
-  flagged: boolean;
-  skipped: boolean;
-  confidence?: number;
-}
+export type AppMode = 'single-question' | 'exam' | 'question-bank' | 'review-incorrect';
+export type ExamStatus = 'not-started' | 'generating' | 'ready' | 'in-progress' | 'finished';
