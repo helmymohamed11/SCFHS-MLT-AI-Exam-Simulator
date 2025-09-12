@@ -65,6 +65,8 @@ export const signUp = async (email: string, password: string, userData: Partial<
         age: userData.age!,
         phone: userData.phone!,
         role: 'user',
+        subscription_tier: 'free',
+        subscription_end_date: null,
       });
 
     if (profileError) throw profileError;
@@ -108,7 +110,19 @@ export const getCurrentUser = async (): Promise<User | null> => {
     phone: profile.phone,
     email: profile.email,
     role: profile.role,
+    subscription_tier: profile.subscription_tier,
+    subscription_end_date: profile.subscription_end_date,
   };
+};
+
+export const updateUserSubscription = async (userId: string, tier: 'free' | 'paid', endDate: string | null) => {
+  const { data, error } = await supabase
+    .from('users')
+    .update({ subscription_tier: tier, subscription_end_date: endDate })
+    .eq('id', userId);
+
+  if (error) throw error;
+  return data;
 };
 
 // Question functions
@@ -176,6 +190,40 @@ export const addQuestion = async (question: Omit<Question, 'id'>, userId: string
     refs: data.refs || [],
   };
 };
+
+export const updateQuestion = async (questionId: string, question: Partial<Omit<Question, 'id'>>) => {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) throw new Error('Not authenticated');
+
+  const questionData = {
+    ...question,
+    difficulty: question.difficulty === Difficulty.Easy ? 1 : question.difficulty === Difficulty.Medium ? 2 : 3,
+  };
+
+  const { data, error } = await supabase
+    .from('questions')
+    .update(questionData)
+    .eq('id', questionId)
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+};
+
+export const deleteQuestion = async (questionId: string) => {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) throw new Error('Not authenticated');
+
+  const { data, error } = await supabase
+    .from('questions')
+    .update({ is_active: false })
+    .eq('id', questionId);
+
+  if (error) throw error;
+  return data;
+};
+
 
 // Attempt functions
 export const createAttempt = async (examType: string): Promise<string> => {

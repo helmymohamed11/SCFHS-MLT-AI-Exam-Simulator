@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, Target, TrendingUp, BookOpen, Flag, SkipForward } from 'lucide-react';
+import { Clock, Target, TrendingUp, BookOpen, Flag, SkipForward, CheckCircle, XCircle } from 'lucide-react';
 import { AttemptReport, getAttemptReport } from '../services/supabaseService';
 import ScoreDonut from './charts/ScoreDonut';
 import DomainBar from './charts/DomainBar';
@@ -60,8 +60,8 @@ const ReportPage: React.FC<ReportPageProps> = ({ attemptId, onCreateFlashcards, 
   const getBucketBadge = (bucket: string) => {
     const colors = {
       weak: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200',
-      mid: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200',
-      good: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
+      mid: 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+      good: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
       strong: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200',
     };
     
@@ -73,89 +73,82 @@ const ReportPage: React.FC<ReportPageProps> = ({ attemptId, onCreateFlashcards, 
   };
 
   return (
-    <div className="max-w-7xl mx-auto space-y-8">
+    <div className="max-w-7xl mx-auto space-y-12">
       {/* Header */}
-      <div className="text-center">
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-white mb-2">
-          Exam Results
+      <div className="text-center border-b border-slate-200 dark:border-slate-700 pb-8">
+        <h1 className="text-4xl font-extrabold text-slate-900 dark:text-white mb-2">
+          Your Exam Performance Report
         </h1>
-        <p className="text-slate-600 dark:text-slate-400">
-          Detailed analysis of your performance
+        <p className="text-lg text-slate-600 dark:text-slate-400">
+          A detailed analysis of your mock exam attempt.
         </p>
       </div>
 
       {/* Summary Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-6 flex flex-col items-center justify-center">
           <ScoreDonut score={report.score_pct} passed={report.passed} />
+          <p className={`mt-4 text-xl font-bold ${report.passed ? 'text-green-500' : 'text-red-500'}`}>
+            {report.passed ? 'Passed' : 'Failed'}
+          </p>
         </div>
         
-        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6">
-          <div className="flex items-center justify-between mb-2">
-            <Clock className="h-5 w-5 text-slate-500" />
-            <span className="text-sm font-medium text-slate-500">Time Taken</span>
-          </div>
-          <div className="text-2xl font-bold text-slate-900 dark:text-white">
+        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-6 flex flex-col items-center justify-center">
+          <Clock className="h-10 w-10 text-sky-500 mb-3" />
+          <span className="text-3xl font-bold text-slate-900 dark:text-white">
             {formatTime(report.time_total_sec)}
-          </div>
-          <div className="text-sm text-slate-500">
-            of 3 hours
-          </div>
+          </span>
+          <span className="text-sm font-medium text-slate-500 mt-1">Time Taken</span>
         </div>
 
-        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6">
-          <div className="flex items-center justify-between mb-2">
-            <SkipForward className="h-5 w-5 text-slate-500" />
-            <span className="text-sm font-medium text-slate-500">Skipped</span>
-          </div>
-          <div className="text-2xl font-bold text-slate-900 dark:text-white">
+        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-6 flex flex-col items-center justify-center">
+          <SkipForward className="h-10 w-10 text-amber-500 mb-3" />
+          <span className="text-3xl font-bold text-slate-900 dark:text-white">
             {report.skipped_ids.length}
-          </div>
-          <div className="text-sm text-slate-500">
-            questions
-          </div>
+          </span>
+          <span className="text-sm font-medium text-slate-500 mt-1">Questions Skipped</span>
         </div>
 
-        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6">
-          <div className="flex items-center justify-between mb-2">
-            <Flag className="h-5 w-5 text-slate-500" />
-            <span className="text-sm font-medium text-slate-500">Flagged</span>
-          </div>
-          <div className="text-2xl font-bold text-slate-900 dark:text-white">
+        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-6 flex flex-col items-center justify-center">
+          <Flag className="h-10 w-10 text-indigo-500 mb-3" />
+          <span className="text-3xl font-bold text-slate-900 dark:text-white">
             {report.flagged_ids.length}
-          </div>
-          <div className="text-sm text-slate-500">
-            for review
-          </div>
+          </span>
+          <span className="text-sm font-medium text-slate-500 mt-1">Questions Flagged</span>
         </div>
       </div>
 
       {/* Domain Performance */}
-      <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6">
-        <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-4 flex items-center">
-          <Target className="h-5 w-5 mr-2" />
-          Domain Performance
+      <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-8">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2 flex items-center">
+          <Target className="h-6 w-6 mr-3 text-sky-500" />
+          Domain Performance Analysis
         </h2>
-        <DomainBar domains={report.domains} />
+        <p className="text-slate-600 dark:text-slate-400 mb-6">
+          Your performance across different knowledge domains. Focus on weaker areas to improve your score.
+        </p>
+        <div className="h-80">
+          <DomainBar domains={report.domains} />
+        </div>
         
-        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {report.domains.map((domain, index) => (
-            <div key={index} className="border border-slate-200 dark:border-slate-700 rounded-lg p-4">
+            <div key={index} className="border border-slate-200 dark:border-slate-700 rounded-lg p-4 transition-all hover:shadow-md hover:border-sky-500">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="font-semibold text-sm text-slate-900 dark:text-white">
+                <h3 className="font-semibold text-md text-slate-900 dark:text-white">
                   {domain.name}
                 </h3>
                 {getBucketBadge(domain.bucket)}
               </div>
-              <div className="text-lg font-bold text-slate-900 dark:text-white">
+              <div className="text-2xl font-bold text-slate-900 dark:text-white">
                 {(domain.acc * 100).toFixed(1)}%
               </div>
               <div className="text-sm text-slate-500">
                 {domain.correct}/{domain.n} correct
               </div>
               {domain.impact && domain.impact > 0 && (
-                <div className="text-xs text-amber-600 dark:text-amber-400 mt-1">
-                  +{domain.impact} points potential
+                <div className="text-xs font-semibold text-amber-600 dark:text-amber-400 mt-1">
+                  +{domain.impact} potential points
                 </div>
               )}
             </div>
@@ -164,32 +157,38 @@ const ReportPage: React.FC<ReportPageProps> = ({ attemptId, onCreateFlashcards, 
       </div>
 
       {/* Weakest Subtopics */}
-      <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6">
-        <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-4 flex items-center">
-          <TrendingUp className="h-5 w-5 mr-2" />
-          Areas for Improvement
+      <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-8">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2 flex items-center">
+          <TrendingUp className="h-6 w-6 mr-3 text-amber-500" />
+          Top Areas for Improvement
         </h2>
+        <p className="text-slate-600 dark:text-slate-400 mb-6">
+          These are the subtopics where you had the lowest accuracy. Prioritize these in your study plan.
+        </p>
         <SubtopicHeatmap subtopics={report.subtopics_weakest} />
       </div>
 
       {/* Recommendations */}
       {report.recommendations.length > 0 && (
-        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6">
-          <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-4 flex items-center">
-            <BookOpen className="h-5 w-5 mr-2" />
-            Study Recommendations
+        <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-8">
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2 flex items-center">
+            <BookOpen className="h-6 w-6 mr-3 text-green-500" />
+            Personalized Study Recommendations
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <p className="text-slate-600 dark:text-slate-400 mb-6">
+            Based on your performance, here are some targeted activities to boost your score.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {report.recommendations.map((rec, index) => (
-              <div key={index} className="border border-slate-200 dark:border-slate-700 rounded-lg p-4">
-                <h3 className="font-semibold text-slate-900 dark:text-white mb-2">
+              <div key={index} className="border border-slate-200 dark:border-slate-700 rounded-lg p-6 flex flex-col">
+                <h3 className="font-semibold text-lg text-slate-900 dark:text-white mb-2">
                   {rec.title}
                 </h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400 mb-3">
-                  {rec.duration_min} minutes • {rec.type}
+                <p className="text-sm text-slate-600 dark:text-slate-400 mb-4 flex-grow">
+                  Estimated duration: {rec.duration_min} minutes. Activity type: {rec.type}.
                 </p>
-                <button className="w-full px-3 py-2 bg-sky-600 hover:bg-sky-700 text-white text-sm font-medium rounded-md transition-colors">
-                  Start Practice
+                <button className="w-full mt-auto px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white text-sm font-medium rounded-md shadow-sm transition-colors">
+                  Start Practice Drill
                 </button>
               </div>
             ))}
@@ -198,18 +197,18 @@ const ReportPage: React.FC<ReportPageProps> = ({ attemptId, onCreateFlashcards, 
       )}
 
       {/* Action Buttons */}
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 border-t border-slate-200 dark:border-slate-700">
         <button
           onClick={onCreateFlashcards}
-          className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-all transform hover:scale-105"
+          className="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-all transform hover:scale-105"
         >
-          Create Flashcards from Incorrect
+          Create Flashcards from Incorrect Answers
         </button>
         <button
           onClick={onBackToExam}
-          className="px-6 py-3 bg-slate-600 hover:bg-slate-700 text-white font-semibold rounded-lg shadow-md transition-all transform hover:scale-105"
+          className="px-8 py-4 bg-slate-600 hover:bg-slate-700 text-white font-semibold rounded-lg shadow-md transition-all transform hover:scale-105"
         >
-          Back to Exam Menu
+          Return to Dashboard
         </button>
       </div>
     </div>

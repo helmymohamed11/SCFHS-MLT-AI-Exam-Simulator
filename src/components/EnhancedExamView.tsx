@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Clock, Flag, ChevronLeft, ChevronRight, Grid3X3, AlertTriangle } from 'lucide-react';
-import { Question } from '../types';
+import { Question, User } from '../types';
 import { saveResponse } from '../services/supabaseService';
 
 interface EnhancedExamViewProps {
+  user: User;
   questions: Question[];
   currentQuestionIndex: number;
   setCurrentQuestionIndex: (index: number) => void;
@@ -17,6 +18,7 @@ interface EnhancedExamViewProps {
 }
 
 const EnhancedExamView: React.FC<EnhancedExamViewProps> = ({
+  user,
   questions,
   currentQuestionIndex,
   setCurrentQuestionIndex,
@@ -28,7 +30,8 @@ const EnhancedExamView: React.FC<EnhancedExamViewProps> = ({
   examStartTime,
   attemptId,
 }) => {
-  const [timeRemaining, setTimeRemaining] = useState<number>(180 * 60); // 3 hours in seconds
+  const examDuration = user.subscription_tier === 'free' ? 30 * 60 : 180 * 60; // 30 mins for free, 180 for paid
+  const [timeRemaining, setTimeRemaining] = useState<number>(examDuration);
   const [showQuestionGrid, setShowQuestionGrid] = useState(false);
   const [tabLeaveCount, setTabLeaveCount] = useState(0);
   const [questionStartTime, setQuestionStartTime] = useState<number>(Date.now());
@@ -40,13 +43,21 @@ const EnhancedExamView: React.FC<EnhancedExamViewProps> = ({
   useEffect(() => {
     const timer = setInterval(() => {
       const elapsed = Math.floor((Date.now() - examStartTime) / 1000);
-      const remaining = Math.max(0, 180 * 60 - elapsed);
+      const remaining = Math.max(0, examDuration - elapsed);
       setTimeRemaining(remaining);
 
-      // Show warnings at 30, 10, and 5 minutes
-      if (remaining === 30 * 60 || remaining === 10 * 60 || remaining === 5 * 60) {
-        setShowTimeWarning(true);
-        setTimeout(() => setShowTimeWarning(false), 5000);
+      // Show warnings at 10, 5, and 1 minute for free tier
+      if (user.subscription_tier === 'free') {
+        if (remaining === 10 * 60 || remaining === 5 * 60 || remaining === 1 * 60) {
+          setShowTimeWarning(true);
+          setTimeout(() => setShowTimeWarning(false), 5000);
+        }
+      } else {
+        // Show warnings at 30, 10, and 5 minutes for paid tier
+        if (remaining === 30 * 60 || remaining === 10 * 60 || remaining === 5 * 60) {
+          setShowTimeWarning(true);
+          setTimeout(() => setShowTimeWarning(false), 5000);
+        }
       }
 
       if (remaining === 0) {
@@ -55,7 +66,7 @@ const EnhancedExamView: React.FC<EnhancedExamViewProps> = ({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [examStartTime, finishExam, tabLeaveCount]);
+  }, [examStartTime, finishExam, tabLeaveCount, examDuration, user.subscription_tier]);
 
   // Tab visibility tracking
   useEffect(() => {
@@ -136,12 +147,17 @@ const EnhancedExamView: React.FC<EnhancedExamViewProps> = ({
     const hours = Math.floor(seconds / 3600);
     const minutes = Math.floor((seconds % 3600) / 60);
     const secs = seconds % 60;
+    if (examDuration <= 30 * 60) { // For free tier, don't show hours
+        return `${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }
     return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
   const getTimeColor = () => {
-    if (timeRemaining <= 5 * 60) return 'text-red-600';
-    if (timeRemaining <= 30 * 60) return 'text-amber-600';
+    const warningTime = user.subscription_tier === 'free' ? 5 * 60 : 30 * 60;
+    const criticalTime = user.subscription_tier === 'free' ? 1 * 60 : 5 * 60;
+    if (timeRemaining <= criticalTime) return 'text-red-600 animate-pulse';
+    if (timeRemaining <= warningTime) return 'text-amber-600';
     return 'text-slate-600 dark:text-slate-400';
   };
 
@@ -188,8 +204,8 @@ const EnhancedExamView: React.FC<EnhancedExamViewProps> = ({
           </div>
           
           <div className="flex items-center space-x-4">
-            <div className={`flex items-center font-mono text-lg font-bold ${getTimeColor()}`}>
-              <Clock className="h-5 w-5 mr-2" />
+            <div className={`flex items-center font-mono text-2xl font-bold ${getTimeColor()}`}>
+              <Clock className="h-6 w-6 mr-2" />
               {formatTimeRemaining(timeRemaining)}
             </div>
             <button

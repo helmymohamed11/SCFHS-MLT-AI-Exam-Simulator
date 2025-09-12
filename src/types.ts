@@ -6,8 +6,9 @@
    age: number;
    phone: string;
    email: string;
-   password?: string; // Should not be sent to client, but needed for simulation
    role: 'user' | 'admin';
+  subscription_tier: 'free' | 'paid';
+  subscription_end_date: string | null;
  }
  
 +export interface AttemptData {
